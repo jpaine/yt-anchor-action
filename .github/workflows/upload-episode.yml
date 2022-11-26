@@ -37,7 +37,7 @@ jobs:
   # TODO: 
   #   Download artefact from previous job
   Upload_Action:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     needs: Extract_episode
     steps:
       - uses: actions/checkout@v3
