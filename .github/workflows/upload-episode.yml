@@ -27,7 +27,7 @@ jobs:
           node --version
       
       - name: Extract Video IDs
-        run: node generateEpisodeList.mjs
+        run: node generateEpisodeList.js
       # - name: Upload Episode from YouTube To Anchor.Fm
       #   uses: Schrodinger-Hat/youtube-to-anchorfm@v2.0.0
       #   env:
