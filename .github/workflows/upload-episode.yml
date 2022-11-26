@@ -18,7 +18,7 @@ jobs:
           wget https://www.youtube.com/watch?v=ABbDB6xri8o&list=PLrAXtmErZgOcl7mvyfkQTHFnOGZxWtN55
 
       - name: Rename the Download
-        run: mv *watch* playlist && ls -sal
+        run: mv *watch* playlist.html && ls -sal
 
       - name: Setup Node
         run: |

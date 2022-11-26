@@ -5,7 +5,7 @@
  * 
  * @param {string} playlistURL - URL of playlist to be processed for upload  
  */
-import * as doc from './playlist'
+import * as doc from './playlist.html'
 
 function generateEpisodeList(playlistURL) {
 
