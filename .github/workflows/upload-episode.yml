@@ -27,17 +27,14 @@ jobs:
         run: node generateEpisodeList.mjs
       
       # TODO:
-      #   Upload playlist.json artefact use upload action 
+      #   Upload episode.json artefact use upload action 
 
-      # Remove this Debug step
-      # - name: Display Array of Nodes
-      #   run: cat playlistArray.txt
-      # - name: Upload Episode from YouTube To Anchor.Fm
-      #   uses: Schrodinger-Hat/youtube-to-anchorfm@v2.0.0
-      #   env:
-      #     ANCHOR_EMAIL: ${{ secrets.ANCHOR_EMAIL }}
-      #     ANCHOR_PASSWORD: ${{ secrets.ANCHOR_PASSWORD }}
-      #     EPISODE_PATH: /github/workspace
-      #     SAVE_AS_DRAFT: true # Remove if not required
-      #     LOAD_THUMBNAIL: true # Remove if thumbnail is not required as episode art
-      #     SET_PUBLISH_DATE: true # Sets publishing date 
+      - name: Upload Episode from YouTube To Anchor.Fm
+        uses: Schrodinger-Hat/youtube-to-anchorfm@v2.0.0
+        env:
+          ANCHOR_EMAIL: ${{ secrets.ANCHOR_EMAIL }}
+          ANCHOR_PASSWORD: ${{ secrets.ANCHOR_PASSWORD }}
+          EPISODE_PATH: /github/workspace
+          SAVE_AS_DRAFT: true # Remove before handover
+          LOAD_THUMBNAIL: true # Remove if thumbnail is not required as episode art
+          SET_PUBLISH_DATE: true # Sets publishing date 
