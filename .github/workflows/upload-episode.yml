@@ -8,7 +8,7 @@ on:
   #   branches: [main]
 
 jobs:
-  upload_episode:
+  Extract_episode:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -28,6 +28,24 @@ jobs:
       
       # TODO:
       #   Upload episode.json artefact use upload action 
+      - name: Upload playlist.json artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: episode
+          path: ./episode.json
+
+  # TODO: 
+  #   Download artefact from previous job
+  Upload_Action:
+    runs_on: ubuntu-latest
+    needs: Extract_episode
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Download playlist artifact
+        uses: actions/download-artifact@v3
+        with: 
+          name: episode
 
       - name: Upload Episode from YouTube To Anchor.Fm
         uses: Schrodinger-Hat/youtube-to-anchorfm@v2.0.0
