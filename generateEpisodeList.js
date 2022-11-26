@@ -9,7 +9,7 @@
 // const doc = requires("./playlist.html")
 import fs from "node:fs"
 export default function generateEpisodeList(playlistURL) {
-
+    console.log("Generating Episode IDs")
     // Download the playlist document and store it at local root
     // In this scenario no playlistURL is needed, remove it
     const document = fs.readFile("./playlist.html")
@@ -25,5 +25,5 @@ export default function generateEpisodeList(playlistURL) {
     console.log("Total nodes in HTMLCollection",playlistNodes.length)
     // Iterate over array items
     // Return an array of id
-    return 0
+    // return 0
 }
