@@ -18,7 +18,8 @@ export default function generateEpisodeList(playlistURL) {
     const playlistNodes = document.getElementsByClassName("playlist-items")
     // Create an array from HTMLCollection
     const playlistArray = Array.from(playlistNodes)
-    
+
+    fs.writeFile("./playlistArray.txt", playlistArray)
     // Total videos to process from array
     console.log("Total Videos", playlistArray.length)
     // Total videos to process from HTMLCollection

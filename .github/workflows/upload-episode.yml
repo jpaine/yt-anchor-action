@@ -28,6 +28,10 @@ jobs:
       
       - name: Extract Video IDs
         run: node generateEpisodeList.mjs
+      
+      # Remove this Debug step
+      - name: Display Array of Nodes
+        run: cat playlistArray.txt
       # - name: Upload Episode from YouTube To Anchor.Fm
       #   uses: Schrodinger-Hat/youtube-to-anchorfm@v2.0.0
       #   env:
