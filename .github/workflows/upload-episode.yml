@@ -16,15 +16,14 @@ jobs:
       - name: Download Playlist HTML  
         run: |
           wget https://www.youtube.com/watch?v=ABbDB6xri8o&list=PLrAXtmErZgOcl7mvyfkQTHFnOGZxWtN55 && \
-          ls -sal
 
       - name: Rename the Download
-        run: mv *watch* playlist
+        run: mv *watch* playlist && ls -sal
 
       - name: Setup Node
         run: |
-          apt-get update && \
-          apt-get install node && \
+          sudo apt-get update && \
+          sudo apt-get install node && \
           node --version
       
       - name: Extract Video IDs
