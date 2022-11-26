@@ -13,25 +13,25 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         
-      - name: Download Playlist HTML  
-        run: |
-          wget https://www.youtube.com/watch?v=ABbDB6xri8o&list=PLrAXtmErZgOcl7mvyfkQTHFnOGZxWtN55
-
-      - name: Rename the Download
-        run: mv *watch* playlist.html && ls -sal
-
-      - name: Setup Node
+      - name: Setup Node and Dependencies 
         run: |
           sudo apt-get update && \
           sudo apt-get install nodejs && \
-          node --version
+          node --version && \
+          npm install
       
+      # Should display all playlist video ids on execution as objects
       - name: Extract Video IDs
+        env:
+          YT_PLAYLIST: "https://www.youtube.com/watch?v=ABbDB6xri8o&list=PLrAXtmErZgOcl7mvyfkQTHFnOGZxWtN55"
         run: node generateEpisodeList.mjs
       
+      # TODO:
+      #   Upload playlist.json artefact use upload action 
+
       # Remove this Debug step
-      - name: Display Array of Nodes
-        run: cat playlistArray.txt
+      # - name: Display Array of Nodes
+      #   run: cat playlistArray.txt
       # - name: Upload Episode from YouTube To Anchor.Fm
       #   uses: Schrodinger-Hat/youtube-to-anchorfm@v2.0.0
       #   env:
