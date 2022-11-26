@@ -20,3 +20,4 @@ jobs:
           EPISODE_PATH: /github/workspace
           SAVE_AS_DRAFT: true # Remove if not required
           LOAD_THUMBNAIL: true # Remove if thumbnail is not required as episode art
+          SET_PUBLISH_DATE: true # Sets publishing date 
