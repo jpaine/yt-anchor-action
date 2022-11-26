@@ -2,7 +2,7 @@
 
 > For the script to run successfully its necessary for there to be at least one episode manually published on Anchor.fm, as the steps to publish on a brand new Anchor.fm account are different, and the automation will break.
 
-- Automation depends on the (npm package)[https://www.npmjs.com/package/@fabricio-191/youtube] to fetch playlist related information.
+- Automation depends on the [npm package](https://www.npmjs.com/package/@fabricio-191/youtube) to fetch playlist related information.
     - In workflow yaml add YT_PLAYLIST environment variable to URL of youtube playlist.
       ```yaml
       env:
