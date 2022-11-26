@@ -12,12 +12,28 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Upload Episode from YouTube To Anchor.Fm
-        uses: Schrodinger-Hat/youtube-to-anchorfm@v2.0.0
-        env:
-          ANCHOR_EMAIL: ${{ secrets.ANCHOR_EMAIL }}
-          ANCHOR_PASSWORD: ${{ secrets.ANCHOR_PASSWORD }}
-          EPISODE_PATH: /github/workspace
-          SAVE_AS_DRAFT: true # Remove if not required
-          LOAD_THUMBNAIL: true # Remove if thumbnail is not required as episode art
-          SET_PUBLISH_DATE: true # Sets publishing date 
+        
+      - name: Download Playlist HTML  
+        run: |
+          wget https://www.youtube.com/watch?v=ABbDB6xri8o&list=PLrAXtmErZgOcl7mvyfkQTHFnOGZxWtN55 \
+          mv *watch* playlist.html \
+          ls -sal \
+          chmod +x generateEpisodeList.js
+
+      - name: Setup Node
+        run: |
+          apt-get update \
+          apt-get install node
+          node --version
+      
+      - name: Extract Video IDs
+        run: node generateEpisodeList.js
+      # - name: Upload Episode from YouTube To Anchor.Fm
+      #   uses: Schrodinger-Hat/youtube-to-anchorfm@v2.0.0
+      #   env:
+      #     ANCHOR_EMAIL: ${{ secrets.ANCHOR_EMAIL }}
+      #     ANCHOR_PASSWORD: ${{ secrets.ANCHOR_PASSWORD }}
+      #     EPISODE_PATH: /github/workspace
+      #     SAVE_AS_DRAFT: true # Remove if not required
+      #     LOAD_THUMBNAIL: true # Remove if thumbnail is not required as episode art
+      #     SET_PUBLISH_DATE: true # Sets publishing date 
