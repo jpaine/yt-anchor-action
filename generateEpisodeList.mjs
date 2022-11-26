@@ -5,9 +5,9 @@
  * 
  * @param {string} playlistURL - URL of playlist to be processed for upload  
  */
-import * as doc from './playlist.html'
-
-function generateEpisodeList(playlistURL) {
+// import * as doc from './playlist.html'
+const doc = requires("./playlist.html")
+export default function generateEpisodeList(playlistURL) {
 
     // Download the playlist document and store it at local root
     // In this scenario no playlistURL is needed, remove it
