@@ -5,13 +5,14 @@
  * 
  * @param {string} playlistURL - URL of playlist to be processed for upload  
  */
-// import * as doc from './playlist.html'
-const doc = requires("./playlist.html")
+// import * as doc from "playlist.html"
+// const doc = requires("./playlist.html")
+import fs from "node:fs"
 export default function generateEpisodeList(playlistURL) {
 
     // Download the playlist document and store it at local root
     // In this scenario no playlistURL is needed, remove it
-    const document = doc
+    const document = fs.readFile("./playlist.html")
     // Store the playlist-items node, returns an HTMLCollection
     // HTMLCollection is an array-like object
     const playlistNodes = document.getElementsByClassName("playlist-items")
