@@ -16,10 +16,12 @@ jobs:
       - name: Download Playlist HTML  
         run: |
           wget https://www.youtube.com/watch?v=ABbDB6xri8o&list=PLrAXtmErZgOcl7mvyfkQTHFnOGZxWtN55 \
-          mv *watch* playlist.html \
           ls -sal \
           chmod +x generateEpisodeList.js
-
+      
+      - name: Rename the Download
+        run: mv *watch* playlist
+        
       - name: Setup Node
         run: |
           apt-get update \
