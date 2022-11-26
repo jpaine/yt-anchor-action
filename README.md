@@ -11,7 +11,7 @@
 
 ### Processing a playlist
 
-> https://www.youtube.com/watch?v=ABbDB6xri8o&list=PLrAXtmErZgOcl7mvyfkQTHFnOGZxWtN55
+> Using an example [playlist](https://www.youtube.com/watch?v=ABbDB6xri8o&list=PLrAXtmErZgOcl7mvyfkQTHFnOGZxWtN55)
 
 - The entire page can be downloaded using wget and is to be processed for playlist item extraction.  
 - The DOM node that contains the playlist has a classname of `playlist-items`
