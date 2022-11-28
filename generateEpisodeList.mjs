@@ -19,19 +19,19 @@ downloadPlaylistJSON()
 function downloadPlaylistJSON() {
   // TODO: Remove in the end before handover
   // Remove before commit to repo everytime in debugging
-  episodeIterator();
+  // episodeIterator();
 
-  // getPlaylist(process.env.YT_PLAYLIST)
-  //   .then(data => {
-  //     fs.writeFile('./playlist.json', JSON.stringify(data), err => {
-  //       if (err) {
-  //         console.error("Error in writing playlist data", err)
-  //       }
-  //       console.log("Playlist downloaded successfully")
-  //       episodeIterator()
-  //     });
-  //   })
-  //   .catch(console.error)
+  getPlaylist(process.env.YT_PLAYLIST)
+    .then(data => {
+      fs.writeFile('./playlist.json', JSON.stringify(data), err => {
+        if (err) {
+          console.error("Error in writing playlist data", err)
+        }
+        console.log("Playlist downloaded successfully")
+        episodeIterator()
+      });
+    })
+    .catch(console.error)
 }
 
 /**
