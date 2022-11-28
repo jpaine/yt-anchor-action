@@ -1,0 +1,246 @@
+{
+    "ID": "PLrAXtmErZgOcl7mvyfkQTHFnOGZxWtN55",
+    "URL": "https://www.youtube.com/playlist?list=PLrAXtmErZgOcl7mvyfkQTHFnOGZxWtN55",
+    "name": "Miscellaneous Videos",
+    "videoQuantity": 9,
+    "views": 65326,
+    "lastUpdate": "Last updated on Oct 22, 2021",
+    "description": "",
+    "isUnlisted": false,
+    "videos": [
+        {
+            "title": "Lex plays The Stanley Parable",
+            "ID": "OIEIr4wtVvU",
+            "URL": "https://www.youtube.com/watch?v=OIEIr4wtVvU",
+            "index": 2,
+            "thumbnails": [
+                {
+                    "url": "https://i.ytimg.com/vi/OIEIr4wtVvU/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLD72SFxyw-vhwurF6xl3MlNjn1oTg",
+                    "width": 336,
+                    "height": 188
+                },
+                {
+                    "url": "https://i.ytimg.com/vi/OIEIr4wtVvU/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAOHw8eUDt5Qm8TYnzOpZ5DcmT9-g",
+                    "width": 246,
+                    "height": 138
+                },
+                {
+                    "url": "https://i.ytimg.com/vi/OIEIr4wtVvU/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLDTjtM47ynyz5w2zoWEGeK0jMLpJg",
+                    "width": 196,
+                    "height": 110
+                },
+                {
+                    "url": "https://i.ytimg.com/vi/OIEIr4wtVvU/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLAhcFG2FNGXFFXs9dw-cONT7JxmCA",
+                    "width": 168,
+                    "height": 94
+                }
+            ],
+            "duration": {
+                "normal": "53:47",
+                "long": "53 minutes, 47 seconds",
+                "number": 3227
+            },
+            "owner": {
+                "name": "Lex Fridman",
+                "ID": "UCSHZKyawb77ixDdsGog4iWA",
+                "URL": "https://www.youtube.com/channel/UCSHZKyawb77ixDdsGog4iWA",
+                "canonicalURL": "https://www.youtube.com/@lexfridman"
+            }
+        },
+        {
+            "title": "Tesla AI Day Highlights | Lex Fridman",
+            "ID": "ABbDB6xri8o",
+            "URL": "https://www.youtube.com/watch?v=ABbDB6xri8o",
+            "index": 1,
+            "thumbnails": [
+                {
+                    "url": "https://i.ytimg.com/vi/ABbDB6xri8o/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCvwM0Uk8QUONWtzatjl8U9f3HOXw",
+                    "width": 336,
+                    "height": 188
+                },
+                {
+                    "url": "https://i.ytimg.com/vi/ABbDB6xri8o/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBcWkIqZz63eg4-RjtGRmm6FpDg_g",
+                    "width": 246,
+                    "height": 138
+                },
+                {
+                    "url": "https://i.ytimg.com/vi/ABbDB6xri8o/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLAPIxdUP2aC7B646fK3v54XeEDjTQ",
+                    "width": 196,
+                    "height": 110
+                },
+                {
+                    "url": "https://i.ytimg.com/vi/ABbDB6xri8o/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLDGhVhFC3yIT0npJTA3iS2VV3Jc1Q",
+                    "width": 168,
+                    "height": 94
+                }
+            ],
+            "duration": {
+                "normal": "11:30",
+                "long": "11 minutes, 30 seconds",
+                "number": 690
+            },
+            "owner": {
+                "name": "Lex Fridman",
+                "ID": "UCSHZKyawb77ixDdsGog4iWA",
+                "URL": "https://www.youtube.com/channel/UCSHZKyawb77ixDdsGog4iWA",
+                "canonicalURL": "https://www.youtube.com/@lexfridman"
+            }
+        },
+        {
+            "title": "Lex plays Cyberpunk 2077",
+            "ID": "bseWFCHATzU",
+            "URL": "https://www.youtube.com/watch?v=bseWFCHATzU",
+            "index": 4,
+            "thumbnails": [
+                {
+                    "url": "https://i.ytimg.com/vi/bseWFCHATzU/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLATQfAXNvKFmpNQxttx7l2Wo3PPNQ",
+                    "width": 336,
+                    "height": 188
+                },
+                {
+                    "url": "https://i.ytimg.com/vi/bseWFCHATzU/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCRCCBolk9ZTSosC893N9ENOnbDtg",
+                    "width": 246,
+                    "height": 138
+                },
+                {
+                    "url": "https://i.ytimg.com/vi/bseWFCHATzU/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLAwI44BWY2Oka6r4uNVC3zzlHr1EA",
+                    "width": 196,
+                    "height": 110
+                },
+                {
+                    "url": "https://i.ytimg.com/vi/bseWFCHATzU/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLA7CDXi6F2RAH0JdToULOt0tWTTVQ",
+                    "width": 168,
+                    "height": 94
+                }
+            ],
+            "duration": {
+                "normal": "1:10:13",
+                "long": "1 hour, 10 minutes, 13 seconds",
+                "number": 4213
+            },
+            "owner": {
+                "name": "Lex Fridman",
+                "ID": "UCSHZKyawb77ixDdsGog4iWA",
+                "URL": "https://www.youtube.com/channel/UCSHZKyawb77ixDdsGog4iWA",
+                "canonicalURL": "https://www.youtube.com/@lexfridman"
+            }
+        },
+        {
+            "title": "DeepMind solves protein folding | AlphaFold 2",
+            "ID": "W7wJDJ56c88",
+            "URL": "https://www.youtube.com/watch?v=W7wJDJ56c88",
+            "index": 5,
+            "thumbnails": [
+                {
+                    "url": "https://i.ytimg.com/vi/W7wJDJ56c88/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDQQ-DkKWQg8Hiesya5ZhbxM8Ge4Q",
+                    "width": 336,
+                    "height": 188
+                },
+                {
+                    "url": "https://i.ytimg.com/vi/W7wJDJ56c88/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDnZE8dcjheZZbCJquAwaTGpDcUgA",
+                    "width": 246,
+                    "height": 138
+                },
+                {
+                    "url": "https://i.ytimg.com/vi/W7wJDJ56c88/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLCPqbt9bw1kgXrStqTgOpE5BEnhlg",
+                    "width": 196,
+                    "height": 110
+                },
+                {
+                    "url": "https://i.ytimg.com/vi/W7wJDJ56c88/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLCiY4Ql1o8P3n3frRkYhYo_dnmMrw",
+                    "width": 168,
+                    "height": 94
+                }
+            ],
+            "duration": {
+                "normal": "16:42",
+                "long": "16 minutes, 42 seconds",
+                "number": 1002
+            },
+            "owner": {
+                "name": "Lex Fridman",
+                "ID": "UCSHZKyawb77ixDdsGog4iWA",
+                "URL": "https://www.youtube.com/channel/UCSHZKyawb77ixDdsGog4iWA",
+                "canonicalURL": "https://www.youtube.com/@lexfridman"
+            }
+        },
+        {
+            "title": "Donut-shaped C code that generates a 3D spinning donut",
+            "ID": "DEqXNfs_HhY",
+            "URL": "https://www.youtube.com/watch?v=DEqXNfs_HhY",
+            "index": 6,
+            "thumbnails": [
+                {
+                    "url": "https://i.ytimg.com/vi/DEqXNfs_HhY/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDIIAJDF100ZJuI1zVFVgcCr9TLUw",
+                    "width": 336,
+                    "height": 188
+                },
+                {
+                    "url": "https://i.ytimg.com/vi/DEqXNfs_HhY/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLChY5yPk_yy96YIRwQIUB5Q_R8YOA",
+                    "width": 246,
+                    "height": 138
+                },
+                {
+                    "url": "https://i.ytimg.com/vi/DEqXNfs_HhY/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLDjCeZMK4hdjNAetnhRtQ9sLd1lXw",
+                    "width": 196,
+                    "height": 110
+                },
+                {
+                    "url": "https://i.ytimg.com/vi/DEqXNfs_HhY/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLDXdh8ACvJ6UK8QuKX5pCZMJCDmUg",
+                    "width": 168,
+                    "height": 94
+                }
+            ],
+            "duration": {
+                "normal": "2:05",
+                "long": "2 minutes, 5 seconds",
+                "number": 125
+            },
+            "owner": {
+                "name": "Lex Fridman",
+                "ID": "UCSHZKyawb77ixDdsGog4iWA",
+                "URL": "https://www.youtube.com/channel/UCSHZKyawb77ixDdsGog4iWA",
+                "canonicalURL": "https://www.youtube.com/@lexfridman"
+            }
+        },
+        {
+            "title": "Self-replicating Python code | Quine",
+            "ID": "a-zEbokJAgY",
+            "URL": "https://www.youtube.com/watch?v=a-zEbokJAgY",
+            "index": 7,
+            "thumbnails": [
+                {
+                    "url": "https://i.ytimg.com/vi/a-zEbokJAgY/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDrfqgD1zd5QkaWLpP_t3-odmevLQ",
+                    "width": 336,
+                    "height": 188
+                },
+                {
+                    "url": "https://i.ytimg.com/vi/a-zEbokJAgY/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCbC7uxKOxCZk4QHFSAj2EoyR8jyA",
+                    "width": 246,
+                    "height": 138
+                },
+                {
+                    "url": "https://i.ytimg.com/vi/a-zEbokJAgY/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLCPushL6E-SVkfZC0Us-Ly1oF8Fdg",
+                    "width": 196,
+                    "height": 110
+                },
+                {
+                    "url": "https://i.ytimg.com/vi/a-zEbokJAgY/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLC3YHbcibplA-YSk8fSbqo8gxVEtw",
+                    "width": 168,
+                    "height": 94
+                }
+            ],
+            "duration": {
+                "normal": "5:25",
+                "long": "5 minutes, 25 seconds",
+                "number": 325
+            },
+            "owner": {
+                "name": "Lex Fridman",
+                "ID": "UCSHZKyawb77ixDdsGog4iWA",
+                "URL": "https://www.youtube.com/channel/UCSHZKyawb77ixDdsGog4iWA",
+                "canonicalURL": "https://www.youtube.com/@lexfridman"
+            }
+        }
+    ]
+}

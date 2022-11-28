@@ -9,29 +9,34 @@
 import { getPlaylist } from '@fabricio-191/youtube'
 import fs from 'node:fs'
 
-// Download playlist information
-// Entrypoint
+// Entrypoint to download playlist information
 downloadPlaylistJSON()
 
-
+/**
+ * Downloads the playlist using the npm package https://www.npmjs.com/package/@fabricio-191/youtube
+ * and call an iterator over the playlist
+ */
 function downloadPlaylistJSON() {
   // TODO: Remove in the end before handover
-  // episodeIterator();
+  // Remove before commit to repo everytime in debugging
+  episodeIterator();
 
-  getPlaylist(process.env.YT_PLAYLIST)
-    .then(data => {
-      fs.writeFile('./playlist.json', JSON.stringify(data), err => {
-        if (err) {
-          console.error("Error in writing playlist data", err)
-        }
-        console.log("Playlist downloaded successfully")
-        episodeIterator()
-      });
-    })
-    .catch(console.error)
+  // getPlaylist(process.env.YT_PLAYLIST)
+  //   .then(data => {
+  //     fs.writeFile('./playlist.json', JSON.stringify(data), err => {
+  //       if (err) {
+  //         console.error("Error in writing playlist data", err)
+  //       }
+  //       console.log("Playlist downloaded successfully")
+  //       episodeIterator()
+  //     });
+  //   })
+  //   .catch(console.error)
 }
 
-// 
+/**
+ * Iterates over the videos in the playlist downloaded
+ */
 function episodeIterator() {
 
   // Read the playlist file downloaded
@@ -42,13 +47,34 @@ function episodeIterator() {
     }
     const playlistDataObj = JSON.parse(data);
 
+    // Videos array which has video information objects
+    var videosArray = playlistDataObj.videos
     // Number of items in the playlist
-    const videoCount = playlistDataObj.videos.length
+    const videoCount = videosArray.length
 
-    // Iterate over the length of playlist i.e video count in a playlist
+    // Create an array that has all the video IDs
+    const playlistIDArray = videosArray.map(element => {
+      return element.ID
+    })
+
+    // Iterate over the length of fetched playlist
     for (let index = 0; index < videoCount; index++) {
-      // Extract video ID to be used by episode.json 
-      getVideoID(playlistDataObj.videos[index], index)
+      // Video ID at index in fetched playlist 
+      var videoID = videosArray[index].ID
+
+      // Assumption: The order of objects in the videos array does not change
+      var toSkip = videosToSkip(index, playlistIDArray)
+
+      // Videos to skip and not skip
+      // If not to skip
+      if (!toSkip) {
+        console.log(`-> Convert and upload video with id ${videoID}`)
+        getVideoID(playlistDataObj.videos[index], index)
+
+        // TODO: Add object to converted.json
+      } else {
+        console.log(`Skip video with id ${videoID}`)
+      }
     }
   });
 }
@@ -61,32 +87,59 @@ function episodeIterator() {
 
 function getVideoID(data, index) {
   var videoObj = {
-    id:data.ID
+    id: data.ID
   }
-  // console.log("Video ID", data.URL, typeof (data.URL), data.URL.slice(32))
-  // console.log(videoObj)
   createActionInputFile(videoObj, index)
 }
 
+
 /**
+ * Function that tells if a video has been already processed
  * 
- * @param {object} episodeID - video ID from getVideoID
+ * @param {Number} index Index of current playlist video object being processed
+ * @param {Array} playlistIDArray All playlist video IDs
+ * @returns {boolean} If video already converted return true, else false
  */
 
-function createActionInputFile(episodeID, index){
+function videosToSkip(index, playlistIDArray) {
+  var convertedVideoID
+  try {
+    // Read the file that stores converted videos objects
+    const convertedVideosObj = JSON.parse(fs.readFileSync('convertedVideos.json', 'utf8'));
+    
+    // If playlist video count exceeds already converted count
+    if (index >= convertedVideosObj.videos.length) {
+      return false
+    } else {
+      convertedVideoID = convertedVideosObj.videos[index].ID
+      // Check if a video is already converted
+      const toSkip = playlistIDArray.includes(convertedVideoID)
+      return toSkip
+    }
+  } catch (err) {
+    console.error(err);
+  }
+}
+
+/**
+ * Creates a episode<index>.json to be used for conversion by Github action for uploading to anchorFM
+ * 
+ * @param {object} episodeID - video ID from getVideoID
+ * @param {index} index - index of video object being processed
+ */
+
+function createActionInputFile(episodeID, index) {
   // TODO:
   //  Write to episodes.json
+  //  Add to convertedEpisode.json
   //  Cleanup
 
-  // console.log(episodeID)
-  // const fileName = `episode-${index}.json`
-  
-  const fileName = `episode.json`
+  const fileName = `episode${index}.json`
 
   fs.writeFile(fileName, JSON.stringify(episodeID), err => {
-          if (err) {
-            console.error("Error in writing to episode.json", err)
-          }
-          console.log("Write successfull", fileName)
+    if (err) {
+      console.error("Error in writing to episode.json", err)
+    }
+    console.log("Write successfull", fileName)
   });
 }
