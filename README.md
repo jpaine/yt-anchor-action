@@ -5,6 +5,7 @@
 - [ ] A file that tracks already converted episodes
 - [ ] Comparision script that pops converted episodes
 - [ ] Script to execute push trigger for workflow on episodes
+- [ ] Add conversion date to already uploaded episode object at the end of workflow run success
 
 
 > For the script to run successfully its necessary for there to be at least one episode manually published on Anchor.fm, as the steps to publish on a brand new Anchor.fm account are different, and the automation will break.
