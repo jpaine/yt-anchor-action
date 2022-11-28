@@ -22,7 +22,7 @@ for i in $(ls | grep episode); do
     # Stage file for commit
     git add episode.json
     # Commit
-    git commit -m ${COMMIT_MESSAGE}
+    git commit -m 'Uploading Episode to AnchorFM'
     # Push to trigger
     git push
 done

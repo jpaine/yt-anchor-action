@@ -1,5 +1,4 @@
 node_modules/
 playlist.json
-episode*.json
 commit*.sh
 trash/
