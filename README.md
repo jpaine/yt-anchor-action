@@ -3,6 +3,7 @@
 ## TODO
 
 - [x] Comparision script that pops converted episodes
+- [x] Comparision script that pops converted episodes even when order in playlist changes
 - [ ] A file that tracks already converted episodes
 - [ ] Script to execute push trigger for workflow on episodes
 - [ ] Add conversion date to already uploaded episode object at the end of workflow run success
