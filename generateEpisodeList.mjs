@@ -6,6 +6,7 @@
  *
  */
 
+import editJsonFile from "edit-json-file"
 import { getPlaylist } from '@fabricio-191/youtube'
 import fs from 'node:fs'
 
@@ -79,6 +80,7 @@ function episodeIterator() {
         getVideoID(playlistDataObj.videos[index], index)
 
         // TODO: Add object to converted.json
+        // createVideoSucessFile(playlistDataObj.videos[index])
       } else {
         console.log(`Skip video with id ${videoID}`)
       }
@@ -114,6 +116,10 @@ function videosToSkip(index, playlistIDArray) {
     // Read the file that stores converted videos objects
     const convertedVideosObj = JSON.parse(fs.readFileSync('convertedVideos.json', 'utf8'));
     
+    // Checks for 
+    if(convertedVideosObj.length){
+      return false
+    }else{
     // If playlist video count exceeds already converted count
     if (index >= convertedVideosObj.videos.length) {
       return false
@@ -123,9 +129,11 @@ function videosToSkip(index, playlistIDArray) {
       const toSkip = playlistIDArray.includes(convertedVideoID)
       return toSkip
     }
+  }
   } catch (err) {
     console.error(err);
   }
+
 }
 
 /**
@@ -151,3 +159,8 @@ function createActionInputFile(episodeID, index) {
   });
   return 
 }
+
+// TODO: Implement
+// function createVideoSucessFile(videoObj){
+//   const successVideoFile = editJsonFile('convertedVideos.json')
+// }

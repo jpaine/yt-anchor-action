@@ -8,14 +8,22 @@ on:
       - main
 
 # TODO: See if the checkout will be of correct commit or not
+# Add artifact to be added to convertedVideos.json
 jobs:
-  Upload_Action:
+  Convert and Upload Action:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
 
-      - name: Video ID to be Converted
-        run: cat episode.json
+      # TODO: Create video.json
+      # - name: Video ID to be Converted
+      #   run: cat episode.json
+
+      # - name: Upload Artifact
+      #   uses: actions/upload-artifact@v3
+      #   with:
+      #     name: video
+      #     path: video.json
 
       - name: Upload Episode from YouTube To Anchor.Fm
         uses: Schrodinger-Hat/youtube-to-anchorfm@v2.0.0
@@ -25,4 +33,16 @@ jobs:
           EPISODE_PATH: /github/workspace
           SAVE_AS_DRAFT: true # Remove before handover
           LOAD_THUMBNAIL: true # Remove if thumbnail is not required as episode art
-          SET_PUBLISH_DATE: true # Sets publishing date 
+          SET_PUBLISH_DATE: true # Sets publishing date
+  
+  # Add To Success Data:
+  #   runs-on: ubuntu-latest
+  #   needs: Convert and Upload Action
+  #   steps:
+  #     - uses: actions/checkout@v3
+
+  #     - name: Download artifact
+  #       uses: actions/download-artifact@v3
+
+  #     - name: Add the episode
+  #       run : cat video.json

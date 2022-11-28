@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "@fabricio-191/youtube": "^0.0.4"
+    "@fabricio-191/youtube": "^0.0.4",
+    "edit-json-file": "^1.7.0"
   }
 }

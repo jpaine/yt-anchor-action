@@ -2,17 +2,21 @@
 
 ## TODO
 
+- [ ] A file that tracks already converted episodes.
+- [ ] Manual testing of above done filename: See `convertedVideos.json`
+- [ ] Workflow job that executes after each successful upload
+- [ ] Add conversion date and other relevant keys to `convertedVideos.json` at end of workflow run success. Will be helpful in tracking changes.
 - [x] Comparision script that pops converted episodes
 - [x] Comparision script that pops converted episodes even when order in playlist changes
-- [ ] A file that tracks already converted episodes
 - [x] Script to execute push trigger for workflow on episodes
-- [ ] Add conversion date to already uploaded episode object at the end of workflow run success
 
 ## How To
 
 > For the script to run successfully it is necessary for there to be `at least one episode manually published` on Anchor.fm. The steps to publish on a brand new Anchor.fm account are different and will break the automation.
 
 > Automation depends on the [npm package](https://www.npmjs.com/package/@fabricio-191/youtube) to fetch playlist related information.
+
+> The steps will be modified once finalized
 
 **One Time Setup**
 
