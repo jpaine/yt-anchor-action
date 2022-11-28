@@ -14,18 +14,23 @@
 
 > Automation depends on the [npm package](https://www.npmjs.com/package/@fabricio-191/youtube) to fetch playlist related information.
 
+**One Time Setup**
+
 1. `Clone` the code to your repository
 2. Go to `Settings -> Secrets -> New Repository Secret`
     - Add the following one by one
         - ANCHOR_EMAIL `your email id on anchor`
         - ANCHOR_PASSWORD `your anchor account password`
-3. Open `Codespaces`
-4. Install dependencies
+2. Open `Codespaces`
+3. Install dependencies
    ```
    npm install
    ```
-5. Open `generateEpisodeList.mjs` and add Youtube playlist URL to variable `YT_PLAYLIST`
-6. Check execute permission for the bash script `triggerRun.sh`. If not executable set it with:
+---
+
+**For Each Run**
+3. When in `codespace`. Open `generateEpisodeList.mjs` and add Youtube playlist URL to variable `YT_PLAYLIST`
+4. Check execute permission for the bash script `triggerRun.sh`. If not executable set it with:
     ```
     chmod u+x triggerRun.sh
     ```
