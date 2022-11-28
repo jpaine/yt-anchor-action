@@ -1,8 +1,8 @@
 /**
- * This module consumes a youtube playlist URL from environment variable
- * YT_PLAYLIST
- * and extracts video ids from it, to be used
- * as input for episode.json
+ * This module downloads a playlist from URL
+ * Set YT_PLAYLIST
+ * Extract and write files with video IDs to be used
+ * as input for episode.json for uploading to AnchorFM
  *
  */
 
@@ -21,13 +21,20 @@ function downloadPlaylistJSON() {
   // Remove before commit to repo everytime in debugging
   // episodeIterator();
 
-  getPlaylist(process.env.YT_PLAYLIST)
+  // ADD: Youtube Playlist URL that you want to process
+  const YT_PLAYLIST="https://www.youtube.com/watch?v=ABbDB6xri8o&list=PLrAXtmErZgOcl7mvyfkQTHFnOGZxWtN55"
+  
+  console.log("=========== PLAYLIST ===============\n")
+  console.log("URL:", YT_PLAYLIST)
+  
+  getPlaylist(YT_PLAYLIST)
     .then(data => {
       fs.writeFile('./playlist.json', JSON.stringify(data), err => {
         if (err) {
           console.error("Error in writing playlist data", err)
         }
-        console.log("Playlist downloaded successfully")
+        console.log("Playlist downloaded successfully \n")
+        console.log("======== SKIP OR PROCESS ===============\n")
         episodeIterator()
       });
     })
@@ -133,13 +140,14 @@ function createActionInputFile(episodeID, index) {
   //  Write to episodes.json
   //  Add to convertedEpisode.json
   //  Cleanup
-
-  const fileName = `episode${index}.json`
+  const videoID = episodeID.id
+  const fileName = `episode_${videoID}.json`
 
   fs.writeFile(fileName, JSON.stringify(episodeID), err => {
     if (err) {
       console.error("Error in writing to episode.json", err)
     }
-    console.log("Write successfull", fileName)
+    console.log("Episode file generated with name", fileName)
   });
+  return 
 }

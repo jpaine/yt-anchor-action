@@ -1,58 +1,27 @@
 name: 'Upload Episode from YouTube To Anchor.Fm'
 
 on:
-  workflow_dispatch
-  # push:
-  #   paths: 
-  #     - episode.json
-  #   branches: [main]
+  push:
+    branches: 
+      - main
 
+# TODO: See if the checkout will be of correct commit or not
 jobs:
-  Extract_episode:
+  Upload_Action:
     runs-on: ubuntu-latest
+    needs: Extract_episode
     steps:
       - uses: actions/checkout@v3
-        
-      - name: Setup Node and Dependencies 
         run: |
-          sudo apt-get update && \
-          sudo apt-get install nodejs && \
-          node --version && \
-          npm install
-      
-      # Should display all playlist video ids on execution as objects
-      - name: Extract Video IDs
+          echo "Video ID to be converted" && \
+          cat episode.json
+
+      - name: Upload Episode from YouTube To Anchor.Fm
+        uses: Schrodinger-Hat/youtube-to-anchorfm@v2.0.0
         env:
-          YT_PLAYLIST: "https://www.youtube.com/watch?v=ABbDB6xri8o&list=PLrAXtmErZgOcl7mvyfkQTHFnOGZxWtN55"
-        run: node generateEpisodeList.mjs
-      
-      # TODO:
-      #   Upload all episode*.json artefact to be used by upload action 
-      - name: Upload playlist.json artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: episode
-          path: ./episode*.json
-
-  # TODO: 
-  #   Download artefact from previous job
-  # Upload_Action:
-  #   runs-on: ubuntu-latest
-  #   needs: Extract_episode
-  #   steps:
-  #     - uses: actions/checkout@v3
-
-  #     - name: Download playlist artifact
-  #       uses: actions/download-artifact@v3
-  #       with: 
-  #         name: episode
-
-  #     - name: Upload Episode from YouTube To Anchor.Fm
-  #       uses: Schrodinger-Hat/youtube-to-anchorfm@v2.0.0
-  #       env:
-  #         ANCHOR_EMAIL: ${{ secrets.ANCHOR_EMAIL }}
-  #         ANCHOR_PASSWORD: ${{ secrets.ANCHOR_PASSWORD }}
-  #         EPISODE_PATH: /github/workspace
-  #         SAVE_AS_DRAFT: true # Remove before handover
-  #         LOAD_THUMBNAIL: true # Remove if thumbnail is not required as episode art
-  #         SET_PUBLISH_DATE: true # Sets publishing date 
+          ANCHOR_EMAIL: ${{ secrets.ANCHOR_EMAIL }}
+          ANCHOR_PASSWORD: ${{ secrets.ANCHOR_PASSWORD }}
+          EPISODE_PATH: /github/workspace
+          SAVE_AS_DRAFT: true # Remove before handover
+          LOAD_THUMBNAIL: true # Remove if thumbnail is not required as episode art
+          SET_PUBLISH_DATE: true # Sets publishing date 
