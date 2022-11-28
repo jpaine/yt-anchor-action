@@ -12,9 +12,9 @@ jobs:
     needs: Extract_episode
     steps:
       - uses: actions/checkout@v3
-        run: |
-          echo "Video ID to be converted" && \
-          cat episode.json
+
+      - name: Video ID to be Converted
+        run: cat episode.json
 
       - name: Upload Episode from YouTube To Anchor.Fm
         uses: Schrodinger-Hat/youtube-to-anchorfm@v2.0.0
