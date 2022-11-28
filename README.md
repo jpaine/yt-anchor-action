@@ -29,12 +29,13 @@
 ---
 
 **For Each Run**
-3. When in `codespace`. Open `generateEpisodeList.mjs` and add Youtube playlist URL to variable `YT_PLAYLIST`
-4. Check execute permission for the bash script `triggerRun.sh`. If not executable set it with:
+
+1. When in `codespace`. Open `generateEpisodeList.mjs` and add Youtube playlist URL to variable `YT_PLAYLIST`
+2. Check execute permission for the bash script `triggerRun.sh`. If not executable set it with:
     ```
     chmod u+x triggerRun.sh
     ```
-7. Execute the bash script from terminal in `codespace`
+3. Execute the bash script from terminal in `codespace`
    ```
    ./commitEpisode.sh
    ``` 
