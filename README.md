@@ -2,8 +2,8 @@
 
 ## TODO
 
+- [x] Comparision script that pops converted episodes
 - [ ] A file that tracks already converted episodes
-- [ ] Comparision script that pops converted episodes
 - [ ] Script to execute push trigger for workflow on episodes
 - [ ] Add conversion date to already uploaded episode object at the end of workflow run success
 
