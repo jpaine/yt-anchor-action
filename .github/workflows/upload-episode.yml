@@ -25,6 +25,7 @@ jobs:
           ANCHOR_EMAIL: ${{ secrets.ANCHOR_EMAIL }}
           ANCHOR_PASSWORD: ${{ secrets.ANCHOR_PASSWORD }}
           EPISODE_PATH: /github/workspace
-          SAVE_AS_DRAFT: true # Remove before handover
+          SAVE_AS_DRAFT: true # Remove to publish directly
           LOAD_THUMBNAIL: true # Remove if thumbnail is not required as episode art
           SET_PUBLISH_DATE: true # Sets publishing date
+          URL_IN_DESCRIPTION: true # Sets youtube URL to episode description

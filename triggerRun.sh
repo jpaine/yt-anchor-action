@@ -6,8 +6,9 @@ node generateEpisodeList.mjs
 TOTAL_EPISODES=$(ls | grep episode | wc -l)
 
 echo
-echo "======= Commit Changes to Processed Videos ================"
-echo " Note: To reset in case of failure \n use emptyProcessedFile script and commit manually"
+echo "=======           Commit Changes to Processed Videos ===============================\n"
+echo " Note: To reset in case of failure use emptyProcessedFile script and commit manually"
+echo '===================================================================================='
 git add -f convertedVideos.json
 git commit -m "Videos processed by the run"
 git push

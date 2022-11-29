@@ -22,29 +22,31 @@
 
 **One Time Setup**
 
-1. `Clone` the code to your repository
+1. `Clone` or `fork` the code to your repository.
 2. Go to `Settings -> Secrets -> New Repository Secret`
     - Add the following one by one
         - ANCHOR_EMAIL `your email id on anchor`
         - ANCHOR_PASSWORD `your anchor account password`
-2. Open `Codespaces`
-3. Install dependencies
+2. Open a `Codespace`. [Read About Codespaces](https://docs.github.com/en/codespaces)
+3. In codespace open a `terminal` and install dependencies
    ```
    npm install
    ```
+4. When in `codespace`. Open `generateEpisodeList.mjs` and add the Youtube playlist URL to variable `YT_PLAYLIST`
+
 ---
 
 **For Each Run**
 
-1. When in `codespace`. Open `generateEpisodeList.mjs` and add Youtube playlist URL to variable `YT_PLAYLIST`
-2. Check execute permission for the bash script `triggerRun.sh`. If not executable set it with:
+1. Check execute permission for the bash script `triggerRun.sh`. If not executable set it with:
     ```
     chmod u+x triggerRun.sh
     ```
-3. Execute the bash script from terminal in `codespace`
+2. Execute the bash script from terminal in `codespace`
    ```
-   ./commitEpisode.sh
+   ./triggerRun.sh
    ``` 
+3. Go to Actions tab in your repository to see status of each video being processed.
 
 ## Storing data of processed videos
 
