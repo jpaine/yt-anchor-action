@@ -6,11 +6,11 @@ node generateEpisodeList.mjs
 TOTAL_EPISODES=$(ls | grep episode | wc -l)
 
 echo
-echo "=======           Commit Changes to Processed Videos ===============================\n"
+echo "=======           Commit Changes to Processed Videos                        ======\n"
 echo " Note: To reset in case of failure use emptyProcessedFile script and commit manually"
 echo '===================================================================================='
 git add -f convertedVideos.json
-git commit -m "Videos processed by the run"
+git commit -m "workflow-run: Videos processed"
 git push
 
 echo 
@@ -26,7 +26,7 @@ for i in $(ls | grep episode); do
     # Stage file for commit
     git add -f episode.json
     # Commit
-    git commit -m 'Uploading Episode to AnchorFM'
+    git commit -m 'workflow-run: Uploading Episode to AnchorFM'
     # Push to trigger
     git push
 done
