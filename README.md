@@ -27,12 +27,18 @@
     - Add the following one by one
         - ANCHOR_EMAIL `your email id on anchor`
         - ANCHOR_PASSWORD `your anchor account password`
-2. Open a `Codespace`. [Read About Codespaces](https://docs.github.com/en/codespaces)
+2. Open a `Codespace`. [Read about Codespaces](https://docs.github.com/en/codespaces)
 3. In codespace open a `terminal` and install dependencies
    ```
    npm install
    ```
 4. When in `codespace`. Open `generateEpisodeList.mjs` and add the Youtube playlist URL to variable `YT_PLAYLIST`
+5. Empty the `convertedVideos.json`
+    
+    ```bash
+    chmod u+x emptyProcessedFile.sh
+    ./emptyProcessedFile.sh
+    ```
 
 ---
 
@@ -51,9 +57,6 @@
 ## Storing data of processed videos
 
 For first run the `convertedVideos.json` file should have the following keys. 
-- The video information is stored in the key `videos` as array of objects.
-- This file is used to decide if videos are already processed and are to be skipped, irrespective of workflow success.
-- Therefore, `remove` any that fail from this file and `decrease` the count accordingly. Then Run again.
 
 ```json
 {
@@ -64,9 +67,13 @@ For first run the `convertedVideos.json` file should have the following keys.
 }
 ```
 
+- The video information is stored in the key `videos` as array of objects.
+- This file is used to decide if videos are already processed and are to be skipped, irrespective of workflow success.
+- Therefore, `remove` any that fail from this file and `decrease` the count accordingly. Then run again or reset this file entirely using `emptyProcessedFile.sh`.
+
+
 ## Concern regarding automation of playlists
 
-<br />
 
 > **Warning:** There might be concerns regarding violation of Github TOS when it comes to uploading of a playlist. [Please read more here](https://github.com/Schrodinger-Hat/youtube-to-anchorfm#how-to-upload-a-youtube-playlist-to-anchorfm-using-this-script)
 
