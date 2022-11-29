@@ -20,7 +20,7 @@ for i in $(ls | grep episode); do
     mv $i episode.json
     # ls | grep episode 
     # Stage file for commit
-    git add episode.json
+    git add -f episode.json
     # Commit
     git commit -m 'Uploading Episode to AnchorFM'
     # Push to trigger
