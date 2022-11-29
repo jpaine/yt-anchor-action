@@ -8,7 +8,7 @@ on:
       - main
 
 jobs:
-  Convert and Upload Action:
+  Upload_Job:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -29,9 +29,9 @@ jobs:
           LOAD_THUMBNAIL: true # Remove if thumbnail is not required as episode art
           SET_PUBLISH_DATE: true # Sets publishing date
   
-  Add To Processed Data:
+  Processed_Success:
     runs-on: ubuntu-latest
-    needs: Convert and Upload Action
+    needs: Upload_Job
     steps:
       - uses: actions/checkout@v3
 
