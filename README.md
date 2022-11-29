@@ -2,10 +2,12 @@
 
 ## TODO
 
-- [ ] A file that tracks already converted episodes.
-- [ ] Manual testing of above done filename: See `convertedVideos.json`
-- [ ] Workflow job that executes after each successful upload
-- [ ] Add conversion date and other relevant keys to `convertedVideos.json` at end of workflow run success. Will be helpful in tracking changes.
+- [ ] Testing
+- [x] Refactored
+- [x] A file that tracks already converted episodes.
+- [x] Manual testing of above done filename: See `convertedVideos.json`
+- [x] Workflow job that executes after each successful upload
+- [x] Add conversion date and other relevant keys to `convertedVideos.json` at end of workflow run success. Will be helpful in tracking changes.
 - [x] Comparision script that pops converted episodes
 - [x] Comparision script that pops converted episodes even when order in playlist changes
 - [x] Script to execute push trigger for workflow on episodes
@@ -44,6 +46,21 @@
    ./commitEpisode.sh
    ``` 
 
+## Storing data of processed videos
+
+For first run the `convertedVideos.json` file should have the following keys. 
+- The video information is stored in the key `videos` as array of objects.
+- This file is used to decide if videos are already processed and are to be skipped, irrespective of workflow success.
+- Therefore, `remove` any that fail from this file and `decrease` the count accordingly. Then Run again.
+
+```json
+{
+    "name": "Upload processed data",
+    "videoQuantity": 0,
+    "lastUpdated": "",
+    "videos": []
+}
+```
 
 ## Concern regarding automation of playlists
 
