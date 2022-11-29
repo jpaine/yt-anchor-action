@@ -29,15 +29,14 @@
         - ANCHOR_PASSWORD `your anchor account password`
 2. Open a `Codespace`. [Read about Codespaces](https://docs.github.com/en/codespaces)
 3. In codespace open a `terminal` and install dependencies
-   ```
+   ```bash
    npm install
    ```
 4. When in `codespace`. Open `generateEpisodeList.mjs` and add the Youtube playlist URL to variable `YT_PLAYLIST`
 5. Empty the `convertedVideos.json`
     
     ```bash
-    chmod u+x emptyProcessedFile.sh
-    ./emptyProcessedFile.sh
+    chmod u+x emptyProcessedFile.sh && ./emptyProcessedFile.sh
     ```
 
 ---
@@ -45,11 +44,11 @@
 **For Each Run**
 
 1. Check execute permission for the bash script `triggerRun.sh`. If not executable set it with:
-    ```
+    ```bash
     chmod u+x triggerRun.sh
     ```
 2. Execute the bash script from terminal in `codespace`
-   ```
+   ```bash
    ./triggerRun.sh
    ``` 
 3. Go to Actions tab in your repository to see status of each video being processed.
@@ -77,6 +76,8 @@ For first run the `convertedVideos.json` file should have the following keys.
 
 > **Warning:** There might be concerns regarding violation of Github TOS when it comes to uploading of a playlist. [Please read more here](https://github.com/Schrodinger-Hat/youtube-to-anchorfm#how-to-upload-a-youtube-playlist-to-anchorfm-using-this-script)
 
+- At times some fields don't get populated on AnchorFM (eg. title being untitled), this is dependent on Github Action and will need manaual intervention.
+ 
 <!-- ### Processing a playlist
 
 > Using an example [playlist](https://www.youtube.com/watch?v=ABbDB6xri8o&list=PLrAXtmErZgOcl7mvyfkQTHFnOGZxWtN55)
