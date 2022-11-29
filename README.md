@@ -76,8 +76,8 @@ For first run the `convertedVideos.json` file should have the following keys.
 
 > **Warning:** There might be concerns regarding violation of Github TOS when it comes to uploading of a playlist. [Please read more here](https://github.com/Schrodinger-Hat/youtube-to-anchorfm#how-to-upload-a-youtube-playlist-to-anchorfm-using-this-script)
 
-- At times some fields don't get populated on AnchorFM (eg. title being untitled), this is dependent on Github Action and will need manaual intervention.
- 
+- At times some fields don't get populated on AnchorFM (eg. title being untitled), this is dependent on Github Action and will need manual intervention.
+
 <!-- ### Processing a playlist
 
 > Using an example [playlist](https://www.youtube.com/watch?v=ABbDB6xri8o&list=PLrAXtmErZgOcl7mvyfkQTHFnOGZxWtN55)
