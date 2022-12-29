@@ -1,0 +1,12 @@
+{
+  "name": "Youtube-AnchorFM",
+  "postStartCommand": "bash foo",
+  "extensions": [
+    "ms-vscode.vscode-remote-extensionpack"
+  ],
+  "runArgs": [
+    "--mount-source=README.md",
+    "--mount-target=/app/README.md",
+    "-e", "VSCODE_GIT_REPOSITORY={{GIT_REPOSITORY}}"
+  ]
+}
