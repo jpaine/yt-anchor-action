@@ -1,5 +1,0 @@
-{
-  "name": "Youtube-AnchorFM",
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:0-18",
-  "postStartCommand": "./triggerRun.sh"
-}
