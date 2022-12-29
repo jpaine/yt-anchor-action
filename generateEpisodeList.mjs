@@ -6,32 +6,29 @@ import createVideoSuccessFile from './utils/createvideosuccessfile.mjs'
 
 /**
  * This module downloads a playlist from URL
- * Set YT_PLAYLIST
+ * Set YT_PLAYLIST passed by the shell script
  * Extract and write files with video IDs to be used
  * as input for episode.json for uploading to AnchorFM
  *
  */
 
-// Entrypoint
+// Passed by the shell script
+const YT_PLAYLIST = process.argv[2]
+
+// Functionality entry point
 // Starts with downloading playlist information
-downloadPlaylistJSON()
+downloadPlaylistJSON(YT_PLAYLIST)
 
 /**
  * Downloads the playlist using the npm package https://www.npmjs.com/package/@fabricio-191/youtube
  * and call an iterator over the playlist
  */
-function downloadPlaylistJSON() {
-  // TODO: Remove in the end before handover
-  // Remove before commit to repo everytime in debugging
-  // episodeIterator();
-
-  // ADD: Youtube Playlist URL that you want to process
-  const YT_PLAYLIST="https://www.youtube.com/watch?v=ABbDB6xri8o&list=PLrAXtmErZgOcl7mvyfkQTHFnOGZxWtN55"
+function downloadPlaylistJSON(URL) {
 
   console.log("=========== PLAYLIST ===============\n")
-  console.log("URL:", YT_PLAYLIST)
+  console.log("URL:", URL)
 
-  getPlaylist(YT_PLAYLIST)
+  getPlaylist(URL)
     .then(data => {
       fs.writeFile('./playlist.json', JSON.stringify(data), err => {
         if (err) {
@@ -40,6 +37,7 @@ function downloadPlaylistJSON() {
         console.log("Playlist downloaded successfully \n")
         console.log("======== SKIP OR PROCESS ===============\n")
         episodeIterator()
+        // console.log(data)
       });
     })
     .catch(console.error)

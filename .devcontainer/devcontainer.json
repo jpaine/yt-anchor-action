@@ -4,5 +4,5 @@
   "extensions": [
     "ms-vscode.vscode-remote-extensionpack"
   ],
-  "postStartCommand": "bash -c 'pwd && ./bar.sh'"
+  "postStartCommand": "bash -c './triggerRun.sh'"
 }
