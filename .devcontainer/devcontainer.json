@@ -4,7 +4,6 @@
   "extensions": [
     "ms-vscode.vscode-remote-extensionpack"
   ],
-  "appPort": 3000,
-  "postCreateCommand": "apt-get update && apt-get install -y tmux",
+  "onCreateCommand": "bash apt-get update && apt-get install -y tmux",
   "postStartCommand": "bash foo"
 }
