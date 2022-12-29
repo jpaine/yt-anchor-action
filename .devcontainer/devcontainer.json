@@ -4,5 +4,5 @@
   "extensions": [
     "ms-vscode.vscode-remote-extensionpack"
   ],
-  "postStartCommand": "bash -c 'split-pane -v; mdcat README.md; split-pane -h; bash'"
+  "postStartCommand": "bash -c 'pwd && ./bar.sh'"
 }
