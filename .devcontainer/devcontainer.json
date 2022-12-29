@@ -2,7 +2,8 @@
   "name": "Youtube-AnchorFM",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:0-18",
   "extensions": [
-    "ms-vscode.vscode-remote-extensionpack"
+    "ms-vscode.vscode-remote-extensionpack",
+    "ms-vscode-remote.vscode-remote-extensionpack"
   ],
   "postStartCommand": "bash -c './triggerRun.sh'"
 }
