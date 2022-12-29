@@ -1,5 +1,6 @@
 {
   "name": "Youtube-AnchorFM",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:0-18",
   "postStartCommand": "bash foo",
   "extensions": [
     "ms-vscode.vscode-remote-extensionpack"
