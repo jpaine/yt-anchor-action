@@ -4,6 +4,5 @@
   "extensions": [
     "ms-vscode.vscode-remote-extensionpack"
   ],
-  "onCreateCommand": "bash apt-get update && apt-get install -y tmux",
-  "postStartCommand": "bash foo"
+  "postStartCommand": "bash -c 'split-pane -v; mdcat README.md; split-pane -h; bash'"
 }
