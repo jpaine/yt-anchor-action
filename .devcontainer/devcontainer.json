@@ -4,5 +4,5 @@
   "extensions": [
     "ms-vscode.vscode-remote-extensionpack"
   ],
-  "postStartCommand": "bash -c './triggerRun.sh'"
+  "postAttachCommand": "bash -c './triggerRun.sh'"
 }
