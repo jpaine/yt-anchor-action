@@ -25,8 +25,9 @@ while true; do
   # Ask the user for a URL
   echo "Paste your Youtube Playlist URL"
   tput sgr0
-  echo "example. https://www.youtube.com/watch?v=nKU7iz9RYV0&list=OLAK5uy_kEqS_tSoax6m3cFM1KMje9I3QYErYu7Zo"
-  read URL
+  echo "example. https://www.youtube.com/watch?v=nKU7iz9RYV0&list=OLAK5uy_kEqS_tSoax6m3cFM1KMje9I3QYErYu7Zo     "
+  echo
+  read -p "URL: " URL
 
   
   # Check if the URL is valid
