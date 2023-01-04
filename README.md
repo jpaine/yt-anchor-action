@@ -12,8 +12,6 @@
 
 > The steps will be modified once finalized
 
-**One Time Setup**
-
 1. `Clone` or `fork` the code to your repository.
 2. Go to `Settings -> Secrets -> New Repository Secret`
     - Add the following one by one
