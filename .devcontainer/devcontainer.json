@@ -10,8 +10,8 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "npm install && ./triggerRun.sh",
-
+	"postStartCommand": "npm install && ./triggerRun.sh",
+	"postCreateCommand": "./triggerRun.sh"
 	// Configure tool-specific properties.
 	// "customizations": {},
 
