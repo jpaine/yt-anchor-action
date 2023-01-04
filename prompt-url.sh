@@ -40,7 +40,7 @@ while true; do
   fi
 done
 
-  # Reset the colors to their default values
-  tput sgr0
+# Reset the colors to their default values
+tput sgr0
 # # Print a message with the new colors
 # echo "This text has a blue background and white foreground!"
