@@ -3,14 +3,6 @@
 ## TODO
 
 - [ ] Testing
-- [x] Refactored
-- [x] A file that tracks already converted episodes.
-- [x] Manual testing of above done filename: See `convertedVideos.json`
-- [x] Workflow job that executes after each successful upload
-- [x] Add conversion date and other relevant keys to `convertedVideos.json` at end of workflow run success. Will be helpful in tracking changes.
-- [x] Comparision script that pops converted episodes
-- [x] Comparision script that pops converted episodes even when order in playlist changes
-- [x] Script to execute push trigger for workflow on episodes
 
 ## How To
 
@@ -20,38 +12,17 @@
 
 > The steps will be modified once finalized
 
-**One Time Setup**
-
 1. `Clone` or `fork` the code to your repository.
 2. Go to `Settings -> Secrets -> New Repository Secret`
     - Add the following one by one
         - ANCHOR_EMAIL `your email id on anchor`
         - ANCHOR_PASSWORD `your anchor account password`
-2. Open a `Codespace`. [Read about Codespaces](https://docs.github.com/en/codespaces)
-3. In codespace open a `terminal` and install dependencies
-   ```bash
-   npm install
-   ```
-4. When in `codespace`. Open `generateEpisodeList.mjs` and add the Youtube playlist URL to variable `YT_PLAYLIST`
-5. Empty the `convertedVideos.json`
-    
-    ```bash
-    chmod u+x emptyProcessedFile.sh && ./emptyProcessedFile.sh
+3. Open a `Codespace`. [Read about Codespaces](https://docs.github.com/en/codespaces)
+4. In the `Codespace` terminal. Copy and paste the following, and press Enter 
     ```
-
+    ./triggerRun.sh
+    ```
 ---
-
-**For Each Run**
-
-1. Check execute permission for the bash script `triggerRun.sh`. If not executable set it with:
-    ```bash
-    chmod u+x triggerRun.sh
-    ```
-2. Execute the bash script from terminal in `codespace`
-   ```bash
-   ./triggerRun.sh
-   ``` 
-3. Go to Actions tab in your repository to see status of each video being processed.
 
 ## Storing data of processed videos
 

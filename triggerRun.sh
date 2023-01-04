@@ -1,7 +1,12 @@
 #! /bin/bash
 
+# for user input of url and variable name is URL
+source ./prompt-url.sh
+
+
+
 # To download and generate episodes to be uploaded
-node generateEpisodeList.mjs
+node generateEpisodeList.mjs $URL
 
 TOTAL_EPISODES=$(ls | grep episode | wc -l)
 
