@@ -1,23 +1,17 @@
 # Automating youtube video to anchor fm audio
 
-## TODO
+## Prerequisite 
 
-- [ ] Testing
+`For the script to run successfully it is necessary for there to be `at least one episode manually published` on Anchor.fm. The steps to publish on a brand new Anchor.fm account are different and will break the automation.`
 
 ## How To
-
-> For the script to run successfully it is necessary for there to be `at least one episode manually published` on Anchor.fm. The steps to publish on a brand new Anchor.fm account are different and will break the automation.
-
-> Automation depends on the [npm package](https://www.npmjs.com/package/@fabricio-191/youtube) to fetch playlist related information.
-
-> The steps will be modified once finalized
 
 1. `Clone` or `fork` the code to your repository.
 2. Go to `Settings -> Secrets -> New Repository Secret`
     - Add the following one by one
         - ANCHOR_EMAIL `your email id on anchor`
         - ANCHOR_PASSWORD `your anchor account password`
-3. Open a `Codespace`. [Read about Codespaces](https://docs.github.com/en/codespaces)
+3. Open a `Codespace` on the `main` branch by clicking on **<> Code** on the top-right corner. It will take a few minutes to start. 
 4. In the `Codespace` terminal. Copy and paste the following, and press Enter 
     ```
     ./triggerRun.sh
@@ -44,10 +38,11 @@ For first run the `convertedVideos.json` file should have the following keys.
 
 ## Concern regarding automation of playlists
 
-
 > **Warning:** There might be concerns regarding violation of Github TOS when it comes to uploading of a playlist. [Please read more here](https://github.com/Schrodinger-Hat/youtube-to-anchorfm#how-to-upload-a-youtube-playlist-to-anchorfm-using-this-script)
 
-- At times some fields don't get populated on AnchorFM (eg. title being untitled), this is dependent on Github Action and will need manual intervention.
+> At times some fields don't get populated on AnchorFM (eg. title being untitled), this is dependent on Github Action and will need manual intervention.
+
+> Automation depends on the [npm package](https://www.npmjs.com/package/@fabricio-191/youtube) to fetch playlist related information.
 
 <!-- ### Processing a playlist
 
