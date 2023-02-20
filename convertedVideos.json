@@ -1,7 +1,7 @@
 {
   "name": "Upload processed data",
-  "videoQuantity": 25,
-  "lastUpdated": "2023-02-20T10:40:59.261Z",
+  "videoQuantity": 30,
+  "lastUpdated": "2023-02-20T16:53:26.974Z",
   "videos": [
     {
       "title": "Tesla AI Day Highlights | Lex Fridman",
@@ -944,6 +944,201 @@
       "ID": "pWFWvVMESnM",
       "URL": "https://www.youtube.com/watch?v=pWFWvVMESnM",
       "index": 4,
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/pWFWvVMESnM/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCRceZgQ2aQQbzG2xClygEzriOcwQ",
+          "width": 336,
+          "height": 188
+        },
+        {
+          "url": "https://i.ytimg.com/vi/pWFWvVMESnM/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCo5zWtorNXIRoiqANIqWTgyyQE3g",
+          "width": 246,
+          "height": 138
+        },
+        {
+          "url": "https://i.ytimg.com/vi/pWFWvVMESnM/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLD0nOZSXa02GLTW7t2-Hlz3r7vgPA",
+          "width": 196,
+          "height": 110
+        },
+        {
+          "url": "https://i.ytimg.com/vi/pWFWvVMESnM/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLDEk57RrRm-8ghUdi7ImzzRLie__Q",
+          "width": 168,
+          "height": 94
+        }
+      ],
+      "duration": {
+        "normal": "1:40",
+        "long": "1 minute, 40 seconds",
+        "number": 100
+      },
+      "owner": {
+        "name": "OxfordUnion",
+        "ID": "UCY7dD6waquGnKTZSumPMTlQ",
+        "URL": "https://www.youtube.com/channel/UCY7dD6waquGnKTZSumPMTlQ",
+        "canonicalURL": "https://www.youtube.com/@OxfordUnion"
+      }
+    },
+    {
+      "title": "This House Believes the UK is Failing and Would Rather Go International | The Great Industry Debate",
+      "ID": "a-N6eNT2EBI",
+      "URL": "https://www.youtube.com/watch?v=a-N6eNT2EBI",
+      "index": 1,
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/a-N6eNT2EBI/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBaBuC2PP_USXBoeTdIW4OjtZ2gbQ",
+          "width": 336,
+          "height": 188
+        },
+        {
+          "url": "https://i.ytimg.com/vi/a-N6eNT2EBI/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCU8kyD5Yisf0FI_eUXUkRlhknikQ",
+          "width": 246,
+          "height": 138
+        },
+        {
+          "url": "https://i.ytimg.com/vi/a-N6eNT2EBI/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLAddDAYBRPZGrSCaWqnlWurGIrRFw",
+          "width": 196,
+          "height": 110
+        },
+        {
+          "url": "https://i.ytimg.com/vi/a-N6eNT2EBI/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLCmq_ZmlgKOa-l0NAt3A9IbhZ79Ig",
+          "width": 168,
+          "height": 94
+        }
+      ],
+      "duration": {
+        "normal": "1:03:00",
+        "long": "1 hour, 3 minutes",
+        "number": 3780
+      },
+      "owner": {
+        "name": "Cambridge Union",
+        "ID": "UClOuePXlJnw8-br7SXiuHqg",
+        "URL": "https://www.youtube.com/channel/UClOuePXlJnw8-br7SXiuHqg",
+        "canonicalURL": "https://www.youtube.com/@cambridgeunionsoc1815"
+      }
+    },
+    {
+      "title": "Lord Sumption, Sir Vince Cable, and Sir John Curtice debate constitutional reform | Oxford Union",
+      "ID": "cTOyERkuwFk",
+      "URL": "https://www.youtube.com/watch?v=cTOyERkuwFk",
+      "index": 2,
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/cTOyERkuwFk/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDvu9uKpjNh_9pG-iWhD4rnj88ocw",
+          "width": 336,
+          "height": 188
+        },
+        {
+          "url": "https://i.ytimg.com/vi/cTOyERkuwFk/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLD6jM7KADKsVgtmXRlA62m4jQVVIQ",
+          "width": 246,
+          "height": 138
+        },
+        {
+          "url": "https://i.ytimg.com/vi/cTOyERkuwFk/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLBLL3mf4DIwx5n8qJlChMIxmYWKnw",
+          "width": 196,
+          "height": 110
+        },
+        {
+          "url": "https://i.ytimg.com/vi/cTOyERkuwFk/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLDz-47VQjHDGPOVEYRBwytCCmIcEQ",
+          "width": 168,
+          "height": 94
+        }
+      ],
+      "duration": {
+        "normal": "1:25:29",
+        "long": "1 hour, 25 minutes, 29 seconds",
+        "number": 5129
+      },
+      "owner": {
+        "name": "OxfordUnion",
+        "ID": "UCY7dD6waquGnKTZSumPMTlQ",
+        "URL": "https://www.youtube.com/channel/UCY7dD6waquGnKTZSumPMTlQ",
+        "canonicalURL": "https://www.youtube.com/@OxfordUnion"
+      }
+    },
+    {
+      "title": "Natalie Dormer: Game of Thrones Actress | Full Q&A | Oxford Union",
+      "ID": "seTdAZhgAZA",
+      "URL": "https://www.youtube.com/watch?v=seTdAZhgAZA",
+      "index": 3,
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/seTdAZhgAZA/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCBYPVdXk9q_vyf7E0uYDQ2x12YPg",
+          "width": 336,
+          "height": 188
+        },
+        {
+          "url": "https://i.ytimg.com/vi/seTdAZhgAZA/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCarPAPk5L_T6IF4ywtxp5x1bZvYg",
+          "width": 246,
+          "height": 138
+        },
+        {
+          "url": "https://i.ytimg.com/vi/seTdAZhgAZA/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLBps0CzQAsT-pCo-koUCypZAo2iLQ",
+          "width": 196,
+          "height": 110
+        },
+        {
+          "url": "https://i.ytimg.com/vi/seTdAZhgAZA/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLCND1SJAtefzofiKhoukXiNHlBJRA",
+          "width": 168,
+          "height": 94
+        }
+      ],
+      "duration": {
+        "normal": "1:04:26",
+        "long": "1 hour, 4 minutes, 26 seconds",
+        "number": 3866
+      },
+      "owner": {
+        "name": "OxfordUnion",
+        "ID": "UCY7dD6waquGnKTZSumPMTlQ",
+        "URL": "https://www.youtube.com/channel/UCY7dD6waquGnKTZSumPMTlQ",
+        "canonicalURL": "https://www.youtube.com/@OxfordUnion"
+      }
+    },
+    {
+      "title": "Peter Thiel on 'Anti-Anti-Anti-Anti Classical Liberalism' | Oxford Union",
+      "ID": "fQ4rc7npiXQ",
+      "URL": "https://www.youtube.com/watch?v=fQ4rc7npiXQ",
+      "index": 4,
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/fQ4rc7npiXQ/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCPKNrwDyJxns23YI4fglsv60p-KQ",
+          "width": 336,
+          "height": 188
+        },
+        {
+          "url": "https://i.ytimg.com/vi/fQ4rc7npiXQ/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDd6_WqK2-UsT3bW6-TPV3TvxU6gQ",
+          "width": 246,
+          "height": 138
+        },
+        {
+          "url": "https://i.ytimg.com/vi/fQ4rc7npiXQ/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLDiTiATXbTDXGBT4IWO476oq2_oFA",
+          "width": 196,
+          "height": 110
+        },
+        {
+          "url": "https://i.ytimg.com/vi/fQ4rc7npiXQ/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLAzSFuM0XKEyEWmOx75nwYwBkFJ7w",
+          "width": 168,
+          "height": 94
+        }
+      ],
+      "duration": {
+        "normal": "1:07:11",
+        "long": "1 hour, 7 minutes, 11 seconds",
+        "number": 4031
+      },
+      "owner": {
+        "name": "OxfordUnion",
+        "ID": "UCY7dD6waquGnKTZSumPMTlQ",
+        "URL": "https://www.youtube.com/channel/UCY7dD6waquGnKTZSumPMTlQ",
+        "canonicalURL": "https://www.youtube.com/@OxfordUnion"
+      }
+    },
+    {
+      "title": "The Oxford Union | 200 years of free speech",
+      "ID": "pWFWvVMESnM",
+      "URL": "https://www.youtube.com/watch?v=pWFWvVMESnM",
+      "index": 5,
       "thumbnails": [
         {
           "url": "https://i.ytimg.com/vi/pWFWvVMESnM/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCRceZgQ2aQQbzG2xClygEzriOcwQ",
