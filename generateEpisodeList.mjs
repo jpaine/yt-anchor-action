@@ -13,8 +13,11 @@ import createActionInputFile from './utils/createactioninputfile.mjs'
  */
 
 // Passed by the shell script
-// const YT_PLAYLIST = process.argv[2]
-const YT_PLAYLIST = "https://www.youtube.com/watch?v=ABbDB6xri8o&list=PLrAXtmErZgOcl7mvyfkQTHFnOGZxWtN55"
+const YT_PLAYLIST = process.argv[2]
+
+// For debugging
+// const YT_PLAYLIST = "https://www.youtube.com/watch?v=ABbDB6xri8o&list=PLrAXtmErZgOcl7mvyfkQTHFnOGZxWtN55"
+
 // Functionality entry point
 // Starts with downloading playlist information
 downloadPlaylistJSON(YT_PLAYLIST)
