@@ -9,6 +9,7 @@
 git config --global user.email $2
 git config --global user.name $3
 
+# Check if the git is configured
 git config 
 
 # The URL is read from repository variable and passed from scheduled workflow
