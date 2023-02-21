@@ -2,7 +2,7 @@ name: 'Triggers playlist update and upload workflow'
 
 on:
   schedule:
-     - cron:  '0 12 * * 2'
+     - cron:  '35 6 * * 2'
      
 jobs:
   Upload_Job:
