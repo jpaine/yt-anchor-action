@@ -3,6 +3,7 @@ import fs from 'node:fs'
 import getVideoID from './utils/getvideoid.mjs'
 import videosToSkip from './utils/videostoskip.mjs'
 import createVideoSuccessFile from './utils/createvideosuccessfile.mjs'
+import createActionInputFile from './utils/createactioninputfile.mjs'
 
 /**
  * This module downloads a playlist from URL
@@ -13,7 +14,8 @@ import createVideoSuccessFile from './utils/createvideosuccessfile.mjs'
  */
 
 // Passed by the shell script
-const YT_PLAYLIST = process.argv[2]
+// const YT_PLAYLIST = process.argv[2]
+const YT_PLAYLIST = "https://www.youtube.com/watch?v=ABbDB6xri8o&list=PLrAXtmErZgOcl7mvyfkQTHFnOGZxWtN55"
 
 // Functionality entry point
 // Starts with downloading playlist information
@@ -65,22 +67,17 @@ function episodeIterator() {
     const playlistIDArray = videosArray.map(element => {
       return element.ID
     })
+    
+    var notConverted = videosToSkip(playlistIDArray)
 
     // Iterate over the length of fetched playlist
-    for (let index = 0; index < videoCount; index++) {
-      // Video ID at index in fetched playlist
-      var videoID = videosArray[index].ID
-      var toSkip = videosToSkip(index, playlistIDArray)
-
-      // Skip conversion and upload on
-      // If not to skip
-      if (!toSkip) {
-        console.log(`-> Convert and upload video with id ${videoID}`)
-        getVideoID(playlistDataObj.videos[index], index)
-        createVideoSuccessFile(playlistDataObj.videos[index])
-      } else {
-        // Skip video with id
-        console.log(`Skip video with id ${videoID}`)
+    if (notConverted.length == 0){
+      console.log("No Video to Convert, all have been converted.")
+    }else{
+      for (let index = 0; index < notConverted.length; index++) {
+        console.log(`-> Convert and upload video with id ${notConverted[index]}`)
+        createVideoSuccessFile(notConverted[index])
+        createActionInputFile(notConverted[index])
       }
     }
   });

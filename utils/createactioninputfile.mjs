@@ -7,12 +7,12 @@ import fs from 'node:fs'
  * @param {index} index - index of video object being processed
  */
 
- export default function createActionInputFile(episodeID, index) {
+ export default function createActionInputFile(episodeID) {
     // TODO:
     //  Write to episodes.json
     //  Add to convertedEpisode.json
     //  Cleanup
-    const videoID = episodeID.id
+    const videoID = episodeID
     const fileName = `episode_${videoID}.json`
   
     fs.writeFile(fileName, JSON.stringify(episodeID), err => {

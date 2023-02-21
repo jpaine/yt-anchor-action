@@ -3,12 +3,11 @@ import fs from 'node:fs'
 /**
  * Function that outputs if a video has been already processed
  *
- * @param {Number} index Index of current playlist video object being processed
  * @param {Array} playlistIDArray All playlist video IDs
- * @returns {boolean} If video already converted return true, else false
+ * @returns {Array} notConverted Video IDs of not yet converted videos
  */
 
- export default function videosToSkip(index, playlistIDArray) {
+ export default function videosToSkip(playlistIDArray) {
     var convertedVideoID
     try {
       // Read the file that stores converted videos objects
@@ -20,17 +19,16 @@ import fs from 'node:fs'
         console.log("========== First Run ==============")
         return false
       }else{
-      // If playlist video count exceeds already converted count
-      if (index >= convertedVideosObj.videos.length) {
-        return false
-      } else {
-        convertedVideoID = convertedVideosObj.videos[index].ID
+        // This needs to be a loop over all the IDs and if it's a match or not
+        var videosArray = convertedVideosObj.videos
+        const convertedIDArray = videosArray.map(element => {
+          return element.ID
+        })
         // Check if a video is already converted
-        const toSkip = playlistIDArray.includes(convertedVideoID)
-        return toSkip
+        const notConverted = playlistIDArray.filter(element => !convertedIDArray.includes(element));
+        return notConverted
       }
-    }
-    } catch (err) {
+    }catch (err) {
       console.error("Error in figuring out upload status of videos",err)
     }
 
