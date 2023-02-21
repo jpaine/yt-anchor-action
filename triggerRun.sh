@@ -38,7 +38,7 @@ echo '==================================================='
 echo 
 echo Total episode to convert and upload: ${TOTAL_EPISODES}
 
-ls | grep episode
+ls | grep episode_
 # for i in $(ls | grep episode); do
 #     echo $i
 #     # Rename to episode.json
