@@ -35,7 +35,7 @@ function downloadPlaylistJSON(URL) {
           console.error("Error in writing playlist data", err)
         }
         console.log("Playlist downloaded successfully \n")
-        console.log("======== SKIP OR PROCESS ===============\n")
+        console.log("======== SKIP OR PROCESS ===============")
         episodeIterator()
         // console.log(data)
       });

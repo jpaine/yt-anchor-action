@@ -18,7 +18,7 @@ echo "Processing: " $URL
 # Sync with the latest convertedVideos file
 git checkout origin/$branch -- convertedVideos.json
 
-To download and generate episodes to be uploaded
+# To download and generate episodes to be uploaded
 node generateEpisodeList.mjs $URL
 
 TOTAL_EPISODES=$(ls | grep episode | wc -l)
