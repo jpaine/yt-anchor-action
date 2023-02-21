@@ -4,9 +4,7 @@ on:
   push:
     branch:
       debug-dup
-  schedule:
-     - cron:  '52 6 * * 2'
-     
+      
 jobs:
   Upload_Job:
     runs-on: ubuntu-latest
