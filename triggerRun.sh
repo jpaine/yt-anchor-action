@@ -16,20 +16,13 @@ URL=$1
 echo "Processing: " $URL
 
 # Sync with the latest convertedVideos file
-git checkout origin/$branch -- convertedVideos.json
+# git checkout origin/$branch -- convertedVideos.json
 
 # To download and generate episodes to be uploaded
 node generateEpisodeList.mjs $URL
 
 TOTAL_EPISODES=$(ls | grep episode | wc -l)
 TOTAL_EPISODES=$((TOTAL_EPISODES-1))
-echo
-echo "=======           Commit Changes to Processed Videos                        ======\n"
-echo " Note: To reset in case of failure use emptyProcessedFile script and commit manually"
-echo '===================================================================================='
-git add -f convertedVideos.json
-git commit -m "workflow-run: Videos processed"
-git push
 
 echo 
 echo '==================================================='
@@ -49,3 +42,11 @@ for i in $(ls | grep episode); do
     # Push to trigger
     git push
 done
+
+echo
+echo "=======           Commit Changes to Processed Videos                        ======\n"
+echo " Note: To reset in case of failure use emptyProcessedFile script and commit manually"
+echo '===================================================================================='
+git add -f convertedVideos.json
+git commit -m "workflow-run: Videos processed"
+git push
