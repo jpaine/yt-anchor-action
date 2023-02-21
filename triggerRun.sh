@@ -32,6 +32,7 @@ echo
 echo Total episode to convert and upload: ${TOTAL_EPISODES}
 
 for i in $(ls | grep episode_); do
+    cat $i
     # Rename to episode.json
     mv $i episode.json
     # Stage file for commit
@@ -42,8 +43,8 @@ for i in $(ls | grep episode_); do
     git push
 done
 
-# Empty the episode file
-echo {\"id\":\"\"} > episode.json
+# # Empty the episode file
+# echo {\"id\":\"\"} > episode.json
 
 echo
 echo "=======           Commit Changes to Processed Videos                        ======\n"
