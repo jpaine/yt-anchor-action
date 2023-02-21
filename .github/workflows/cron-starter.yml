@@ -1,9 +1,6 @@
 name: 'Weekly Workflow'
 
-on:
-  workflow_dispatch
-  schedule:
-    - cron: "15 10 * * *"
+on: workflow_dispatch
 
 jobs:
   Upload_Job:
