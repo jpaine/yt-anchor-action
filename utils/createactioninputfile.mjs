@@ -3,15 +3,10 @@ import fs from 'node:fs'
 /**
  * Creates a episode_<video ID>.json to be used for conversion by Github Action for uploading to anchorFM
  * 
- * @param {object} episodeID - video ID from getVideoID
- * @param {index} index - index of video object being processed
+ * @param {object} episodeID - Youtube video ID 
  */
 
  export default function createActionInputFile(episodeID) {
-    // TODO:
-    //  Write to episodes.json
-    //  Add to convertedEpisode.json
-    //  Cleanup
     const videoID = episodeID
     const fileName = `episode_${videoID}.json`
   

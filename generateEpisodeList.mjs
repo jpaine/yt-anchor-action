@@ -1,6 +1,5 @@
 import { getPlaylist } from '@fabricio-191/youtube'
 import fs from 'node:fs'
-import getVideoID from './utils/getvideoid.mjs'
 import videosToSkip from './utils/videostoskip.mjs'
 import createVideoSuccessFile from './utils/createvideosuccessfile.mjs'
 import createActionInputFile from './utils/createactioninputfile.mjs'
@@ -60,8 +59,6 @@ function episodeIterator() {
 
     // Videos array which has video information objects
     var videosArray = playlistDataObj.videos
-    // Number of items in the playlist
-    const videoCount = videosArray.length
 
     // Create an array that has all the video IDs
     const playlistIDArray = videosArray.map(element => {
