@@ -21,6 +21,14 @@ echo "Processing: " $URL
 # To download and generate episodes to be uploaded
 node generateEpisodeList.mjs $URL
 
+echo
+echo "=======           Commit Changes to Processed Videos                        ======\n"
+echo " Note: To reset in case of failure use emptyProcessedFile script and commit manually"
+echo '===================================================================================='
+git add -f convertedVideos.json
+git commit -m "workflow-run: Videos processed"
+git push
+
 TOTAL_EPISODES=$(ls | grep episode | wc -l)
 TOTAL_EPISODES=$((TOTAL_EPISODES-1))
 
@@ -45,11 +53,3 @@ done
 
 # Empty the episode file
 echo {\"id\":\"\"} > episode.json
-
-echo
-echo "=======           Commit Changes to Processed Videos                        ======\n"
-echo " Note: To reset in case of failure use emptyProcessedFile script and commit manually"
-echo '===================================================================================='
-git add -f convertedVideos.json
-git commit -m "workflow-run: Videos processed"
-git push
