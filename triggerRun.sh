@@ -5,13 +5,9 @@
 # which are reading the playlist from CODESPACE secret
 # source ./prompt-url.sh
 
-# The URL is to be now read from the environment variable
-# Change this to Repository secret 
-# eg. CODESPACE_PLAYLIST2 for a different playlist
-# URL=$(echo $CODESPACE_PLAYLIST)
-
-echo "VARIABLE" $1
-
+# The URL is read from the repository variable and passed from scheduled workflow
+URL=$1
+echo $URL
 
 # The branch on which this is being run
 # branch=$(git branch --show-current)
