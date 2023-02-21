@@ -9,13 +9,12 @@
 git config --global user.email $2
 git config --global user.name $3
 
-# Check if the git is configured
-git config --list
-
 # The URL is read from repository variable and passed from scheduled workflow
 URL=$1
 echo "Processing: " $URL
 
+# branch name
+echo $4 
 # The branch on which this is being run
 # branch=$(git branch --show-current)
 # echo $branch

@@ -12,4 +12,4 @@ jobs:
         run: npm install 
 
       - name: Execute Program 
-        run: ./triggerRun.sh ${{ vars.PLAYLIST_ONE }} ${{ vars.GIT_EMAIL }} ${{ vars.GIT_USERNAME }}
+        run: ./triggerRun.sh ${{ vars.PLAYLIST_ONE }} ${{ vars.GIT_EMAIL }} ${{ vars.GIT_USERNAME }} ${{ github.ref_name }}
