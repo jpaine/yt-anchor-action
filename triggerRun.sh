@@ -31,8 +31,10 @@ echo '==================================================='
 echo 
 echo Total episode to convert and upload: ${TOTAL_EPISODES}
 
-for i in $(ls | grep episode); do
-    echo $i
+
+for i in $(ls | grep episode_); do
+    # Empty the episode file
+    echo "" > episode.json
     # Rename to episode.json
     mv $i episode.json
     # Stage file for commit
