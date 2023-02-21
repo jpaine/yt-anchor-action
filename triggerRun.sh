@@ -43,13 +43,13 @@ for i in $(ls | grep episode_); do
     git push
 done
 
-# # Empty the episode file
-# echo {\"id\":\"\"} > episode.json
+# Empty the episode file
+echo {\"id\":\"\"} > episode.json
 
 echo
 echo "=======           Commit Changes to Processed Videos                        ======\n"
 echo " Note: To reset in case of failure use emptyProcessedFile script and commit manually"
 echo '===================================================================================='
-git add -f convertedVideos.json episode.json
+git add -f convertedVideos.json
 git commit -m "workflow-run: Videos processed"
 git push
