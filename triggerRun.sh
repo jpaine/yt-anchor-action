@@ -6,30 +6,30 @@
 # source ./prompt-url.sh
 
 # Set git username and email
-git config --global user.email $2
-git config --global user.name $3
+# git config --global user.email $2
+# git config --global user.name $3
 # short ref name of the branch
-branch=$4 
+# branch=$4 
 
 # The URL is read from repository variable and passed from scheduled workflow
 URL=$1
 echo "Processing: " $URL
 
 # Sync with the latest convertedVideos file
-git checkout origin/$branch -- convertedVideos.json
+# git checkout origin/$branch -- convertedVideos.json
 
 # To download and generate episodes to be uploaded
 node generateEpisodeList.mjs $URL
 
 TOTAL_EPISODES=$(ls | grep episode | wc -l)
-
+TOTAL_EPISODES=$((TOTAL_EPISODES-1))
 echo
 echo "=======           Commit Changes to Processed Videos                        ======\n"
 echo " Note: To reset in case of failure use emptyProcessedFile script and commit manually"
 echo '===================================================================================='
-git add -f convertedVideos.json
-git commit -m "workflow-run: Videos processed"
-git push
+# git add -f convertedVideos.json
+# git commit -m "workflow-run: Videos processed"
+# git push
 
 echo 
 echo '==================================================='
@@ -38,13 +38,15 @@ echo '==================================================='
 echo 
 echo Total episode to convert and upload: ${TOTAL_EPISODES}
 
-for i in $(ls | grep episode); do
-    # Rename to episode.json
-    mv $i episode.json
-    # Stage file for commit
-    git add -f episode.json
-    # Commit
-    git commit -m 'workflow-run: Uploading Episode to AnchorFM'
-    # Push to trigger
-    git push
-done
+ls | grep episode
+# for i in $(ls | grep episode); do
+#     echo $i
+#     # Rename to episode.json
+#     # mv $i episode.json
+#     # Stage file for commit
+#     # git add -f episode.json
+#     # Commit
+#     # git commit -m 'workflow-run: Uploading Episode to AnchorFM'
+#     # Push to trigger
+#     # git push
+# done
