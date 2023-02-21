@@ -31,10 +31,10 @@ echo '==================================================='
 echo 
 echo Total episode to convert and upload: ${TOTAL_EPISODES}
 
+# Empty episode file
+echo "" > episode.json
 
 for i in $(ls | grep episode_); do
-    # Empty the episode file
-    echo "" > episode.json
     # Rename to episode.json
     mv $i episode.json
     # Stage file for commit
@@ -43,6 +43,8 @@ for i in $(ls | grep episode_); do
     git commit -m 'workflow-run: Uploading Episode to AnchorFM'
     # Push to trigger
     git push
+    # Empty the episode file
+    echo "" > episode.json
 done
 
 echo
