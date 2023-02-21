@@ -8,9 +8,9 @@
 # The URL is to be now read from the environment variable
 # Change this to Repository secret 
 # eg. CODESPACE_PLAYLIST2 for a different playlist
-URL=$(echo $CODESPACE_PLAYLIST)
+# URL=$(echo $CODESPACE_PLAYLIST)
 
-echo "CODESPACE VARIABLE" $1
+echo "VARIABLE" $1
 
 
 # The branch on which this is being run

@@ -1,9 +1,6 @@
 name: 'Triggers playlist update and upload workflow'
 
 on:
-  push:
-    branches: 
-      - debug-dup
   schedule:
      - cron:  '0 12 * * 2'
      
@@ -14,4 +11,4 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Execute Program
-        run: ./triggerRun.sh $PLAYLIST_ONE
+        run: ./triggerRun.sh {{ vars.PLAYLIST_ONE }}
