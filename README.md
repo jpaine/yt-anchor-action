@@ -23,15 +23,20 @@
     - Add the following one by one
         - ANCHOR_EMAIL `your email id on anchor`
         - ANCHOR_PASSWORD `your anchor account password`
+3. Go to `Settings -> Secrets -> Codespaces Secretes`
+  - Add the following
+    - CODESPACE_PLAYLIST `https://www.youtube.com/watch?v=ABbDB6xri8o&list=PLrAXtmErZgOcl7mvyfkQTHFnOGZxWtN55`
 
-### For each run 
+4. The action runs every Thursday at 12 pm.
+
+<!-- ### For each run 
 
 1. Open a `Codespace` named `` on the `main` branch by clicking on **<> Code** dropdown at _top-right corner_. It will take a few minutes to start. If you already have a `Codespace` on it then just open the same.
 2. In the `Codespace` terminal. Copy and paste the following, and press Enter 
     ```
     ./triggerRun.sh
     ```
----
+--- -->
 ---
 
 ## How is the converted videos data stored ?

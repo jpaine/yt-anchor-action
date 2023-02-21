@@ -1,0 +1,17 @@
+name: 'Triggers playlist update and upload workflow'
+
+on:
+  push:
+    branches: 
+      - debug-dup
+  schedule:
+     - cron:  '0 12 * * 2'
+     
+jobs:
+  Upload_Job:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Execute Program
+        run: ./triggerRun.sh $PLAYLIST_ONE
