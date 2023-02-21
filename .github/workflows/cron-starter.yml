@@ -1,10 +1,9 @@
-name: 'Triggers playlist update and upload workflow'
+name: 'Weekly Workflow'
 
 on:
-  push:
-    branch:
-      debug-dup
-      
+  schedule:
+    - cron: "32 7 * * 2"
+
 jobs:
   Upload_Job:
     runs-on: ubuntu-latest
