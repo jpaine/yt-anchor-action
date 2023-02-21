@@ -9,5 +9,5 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Execute Program
-        run: npm install
-        run: ./triggerRun.sh ${{ vars.PLAYLIST_ONE }} ${{ vars.GIT_EMAIL }} ${{ github.username }}
+      - run: npm install 
+      - run: ./triggerRun.sh ${{ vars.PLAYLIST_ONE }} ${{ vars.GIT_EMAIL }} ${{ github.username }}
