@@ -7,10 +7,10 @@ import fs from 'node:fs'
  */
 
  export default function createActionInputFile(episodeID) {
-    const videoID = episodeID
-    const fileName = `episode_${videoID}.json`
-  
-    fs.writeFile(fileName, JSON.stringify(episodeID), err => {
+    const fileName = `episode_${episodeID}.json`
+    const writeObj = {"id": episodeID}
+
+    fs.writeFile(fileName, JSON.stringify(writeObj), err => {
       if (err) {
         console.error("Error in writing to episode.json", err)
       }

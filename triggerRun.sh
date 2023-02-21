@@ -43,7 +43,7 @@ for i in $(ls | grep episode_); do
 done
 
 # Empty the episode file
-echo "" > episode.json
+echo {\"id\":\"\"} > episode.json
 
 echo
 echo "=======           Commit Changes to Processed Videos                        ======\n"
