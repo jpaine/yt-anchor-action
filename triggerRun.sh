@@ -49,7 +49,7 @@ for i in $(ls | grep episode_); do
     git commit -m 'workflow-run: Uploading Episode to AnchorFM'
     # Push to trigger
     git push
+    # Empty the episode file
+    echo {\"id\":\"\"} > episode.json
 done
 
-# Empty the episode file
-echo {\"id\":\"\"} > episode.json
