@@ -6,9 +6,6 @@ jobs:
   Upload_Job:
     runs-on: ubuntu-latest
     steps:
-      - env:
-          GITHUB_TOKEN: ${{ secrets.MY_TOKEN }}
-
       - uses: actions/checkout@v3
 
       - name: Install Dependencies
@@ -16,3 +13,5 @@ jobs:
 
       - name: Execute Program 
         run: ./triggerRun.sh ${{ vars.PLAYLIST_ONE }} ${{ vars.GIT_EMAIL }} ${{ vars.GIT_USERNAME }} ${{ github.ref_name }}
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }
