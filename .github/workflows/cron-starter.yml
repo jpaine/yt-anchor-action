@@ -7,13 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        name: Checkout repo and run
         with:
           persist-credentials: 'false'
-
-      - name: Install Dependencies
-        run: npm install 
-
-      - name: Execute Program 
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-        run: ./triggerRun.sh ${{ vars.PLAYLIST_ONE }} ${{ vars.GIT_EMAIL }} ${{ vars.GIT_USERNAME }} ${{ github.ref_name }}
+        run: |
+          npm install
+          ./triggerRun.sh ${{ vars.PLAYLIST_ONE }}

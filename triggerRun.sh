@@ -6,8 +6,8 @@
 # source ./prompt-url.sh
 
 # Set git username and email
-git config --global user.email $2
-git config --global user.name $3
+# git config --global user.email $2
+# git config --global user.name $3
 # short ref name of the branch
 # branch=$4 
 
