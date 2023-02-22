@@ -10,3 +10,5 @@ jobs:
       - run: |
           npm install
           ./triggerRun.sh ${{ vars.PLAYLIST_ONE }}
+        with:
+          token: ${{ github.token }}
