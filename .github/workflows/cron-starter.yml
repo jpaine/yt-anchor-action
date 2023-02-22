@@ -6,7 +6,6 @@ jobs:
   Upload_Job:
     runs-on: ubuntu-latest
     steps:
-        name: Checkout repo and run
       - uses: actions/checkout@v3
       - run: |
           npm install
