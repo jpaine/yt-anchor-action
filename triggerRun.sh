@@ -9,7 +9,7 @@
 git config --global user.email $2
 git config --global user.name $3
 # short ref name of the branch
-branch=$4 
+# branch=$4 
 
 # The URL is read from repository variable and passed from scheduled workflow
 URL=$1
