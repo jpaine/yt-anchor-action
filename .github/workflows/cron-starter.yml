@@ -12,6 +12,6 @@ jobs:
         run: npm install 
 
       - name: Execute Program 
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         run: ./triggerRun.sh ${{ vars.PLAYLIST_ONE }} ${{ vars.GIT_EMAIL }} ${{ vars.GIT_USERNAME }} ${{ github.ref_name }}
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }
