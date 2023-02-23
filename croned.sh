@@ -16,7 +16,9 @@
 #   .$(pwd)/hello.sh
 # done < branches.txt
 pwd
+echo $YT_ACTION_PATH
 cd $YT_ACTION_PATH
+pwd
 git switch local-cron
 ./hello.sh
 # Clean up by removing branches.txt
