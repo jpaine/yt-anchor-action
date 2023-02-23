@@ -15,7 +15,8 @@
 #   # Run the program
 #   .$(pwd)/hello.sh
 # done < branches.txt
+cd $1
 git switch local-cron
-$(pwd)/hello.sh
+./hello.sh
 # Clean up by removing branches.txt
 # rm branches.txt
