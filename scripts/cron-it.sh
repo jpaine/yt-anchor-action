@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # Program's directory
-export YT_ACTION_PATH=$(pwd)
 
 # Path to the script to be run
 SCRIPT_PATH=$(pwd)/croned.sh
