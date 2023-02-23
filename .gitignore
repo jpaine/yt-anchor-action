@@ -4,3 +4,4 @@ commit*.sh
 trash/
 episode*.json
 *.bk
+branch_playlist.txt

@@ -5,7 +5,6 @@
   - [Prerequisite](#prerequisite)
   - [How To](#how-to)
     - [Needed to be done once for setup](#needed-to-be-done-once-for-setup)
-    - [For each run](#for-each-run)
   - [How is the converted videos data stored ?](#how-is-the-converted-videos-data-stored-)
   - [Concern regarding automation of playlists](#concern-regarding-automation-of-playlists)
 
@@ -13,6 +12,12 @@
 ## Prerequisite 
 
 > For the script to run successfully it is necessary for there to be **at least one episode manually published** on Anchor.fm. The steps to publish on a brand new Anchor.fm account are different and will break the automation.
+
+1. Make sure you have `node` and `git` installed on your machine.
+   ```
+    node --version && git --version
+   ```
+2. 
 
 ## How To
 
