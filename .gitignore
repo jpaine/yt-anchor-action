@@ -5,3 +5,5 @@ trash/
 episode*.json
 *.bk
 branch_playlist.txt
+*.log
+hello.sh

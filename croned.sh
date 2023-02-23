@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# TODO: Fix if needed and is to be used
-
-
 # Get a list of branches and store them in branches.txt
 git branch --list --format='%(refname:lstrip=2)' > branches.txt
 
@@ -14,6 +11,9 @@ while read branch; do
   # Run git branch --show-current and echo hello
   echo "Current branch: $(git branch --show-current)"
   echo "Hello"
+
+  # Run the program
+  .$(pwd)/hello.sh
 done < branches.txt
 
 # Clean up by removing branches.txt

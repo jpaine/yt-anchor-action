@@ -3,15 +3,16 @@
 # URL for the Branch
 # On first run it will ask user to input
 # On subsequent runs it will take the url from branch_playlist.txt
-source ./prompt-url.sh
-source ./update-workflow.sh
+# source ./scripts/prompt-url.sh
+# source ./scripts/update-workflow.sh
+echo "Croned it"
 # Set anchor email and password variable in the upload-episode.yml
 # based on branch name
-echo -e "\n\nOn branch:"
-git branch --show-current
+# branch=$(git branch --show-current)
+# echo -e "\n\nOn branch: $branch"
 
 # The URL is read from repository variable and passed from scheduled workflow
-echo -e "\nProcessing: " $URL
+# echo -e "\nProcessing: " $URL
 
 # Sync with the latest convertedVideos file
 # git checkout origin/$branch -- convertedVideos.json

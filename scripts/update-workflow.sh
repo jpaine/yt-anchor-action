@@ -18,7 +18,7 @@ else
   sed -i "s/secrets.ANCHOR_PASSWORD/secrets.ANCHOR_PASSWORD_${branch_name#podcast_}/g" .github/workflows/upload-episode.yml
 
   # Commit and update the workflow file before proceeding further
-  git add -f .github/workflows/upload-episode.yml
-  git commit -m "workflow: updated to match branch's podcast"
-  git push
+  # git add -f .github/workflows/upload-episode.yml
+  # git commit -m "workflow: updated to match branch's podcast"
+  # git push
 fi
