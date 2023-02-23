@@ -15,6 +15,7 @@
 #   # Run the program
 #   .$(pwd)/hello.sh
 # done < branches.txt
+pwd
 cd $YT_ACTION_PATH
 git switch local-cron
 ./hello.sh
