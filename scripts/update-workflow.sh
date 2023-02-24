@@ -8,6 +8,8 @@
 
 # Get the current branch name
 branch_name=$(git branch --show-current)
+# Replace in place the branch name
+sed -i "s/podcast_branch/$branch_name/g" .github/workflows/upload-episode.yml
 
 # Check if the patterns have already been changed
 if grep -q "secrets.ANCHOR_EMAIL_${branch_name#podcast_}" .github/workflows/upload-episode.yml && grep -q "secrets.ANCHOR_PASSWORD_${branch_name#podcast_}" .github/workflows/upload-episode.yml; then
@@ -17,8 +19,9 @@ else
   sed -i "s/secrets.ANCHOR_EMAIL/secrets.ANCHOR_EMAIL_${branch_name#podcast_}/g" .github/workflows/upload-episode.yml
   sed -i "s/secrets.ANCHOR_PASSWORD/secrets.ANCHOR_PASSWORD_${branch_name#podcast_}/g" .github/workflows/upload-episode.yml
 
+
   # Commit and update the workflow file before proceeding further
-  # git add -f .github/workflows/upload-episode.yml
-  # git commit -m "workflow: updated to match branch's podcast"
-  # git push
+  git add -f .github/workflows/upload-episode.yml
+  git commit -m "workflow: updated to match branch's podcast"
+  git push
 fi

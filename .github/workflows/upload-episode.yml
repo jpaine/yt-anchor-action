@@ -5,7 +5,7 @@ on:
     paths:
       - episode.json
     branches: 
-      - debug-dup
+      - podcast_branch
 
 jobs:
   Upload_Job:
