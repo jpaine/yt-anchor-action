@@ -1,25 +1,22 @@
 #!/bin/bash
+# Purpose: To loop over branches named podcast_x 
+# Remember: The email and password should match `_x` 
 
-# Get a list of branches and store them in branches.txt
-# git branch --list --format='%(refname:lstrip=2)' > branches.txt
+# set program directory
+YT_ACTION_PATH=$(dirname $0) 
+cd $YT_ACTION_PATH
+
+# List branches and store them in branches.txt
+# Remember only brances of podcast_x will be stored
+git branch --list --format='%(refname:lstrip=2)' | grep '^podcast_' > branches.txt
+
+echo $(date) >> cronJob.log
 
 # Loop through each branch and switch to it
-# while read branch; do
-#   git switch "$branch"
-#   echo "Switched to branch: $branch"
-  
-#   # Run git branch --show-current and echo hello
-#   echo "Current branch: $(git branch --show-current)"
-#   echo "Hello"
-
-#   # Run the program
-#   .$(pwd)/hello.sh
-# done < branches.txt
-pwd
-echo $YT_ACTION_PATH
-cd $YT_ACTION_PATH
-pwd
-git switch local-cron
-./hello.sh
-# Clean up by removing branches.txt
-# rm branches.txt
+while read branch; do
+  # switch to branch
+  git switch "$branch"
+  echo "Switched to branch: $branch"
+  # Run the program
+  ./hello.sh
+done < branches.txt
