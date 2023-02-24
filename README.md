@@ -11,10 +11,10 @@
 
 > For the script to run successfully it is necessary for there to be **at least one episode manually published** on Anchor.fm. The steps to publish on a brand new Anchor.fm account are different and will break the automation.
 
-1. Make sure you have `node` and `git` installed on your machine.
+1. Make sure you have `node`, `npm` and `git` installed on your machine.
 
    ```bash
-    node --version && git --version
+    node --version && npm --version && git --version
    ```
 ## Setting up automation of job
 
