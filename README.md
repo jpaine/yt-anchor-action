@@ -7,6 +7,11 @@
     - [Set up Github Credentials](#set-up-github-credentials)
     - [Creating a new podcast](#creating-a-new-podcast)
     - [Setting up the cron job](#setting-up-the-cron-job)
+      - [Playlist](#playlist)
+      - [Setup Workflow](#setup-workflow)
+      - [Setup Cron](#setup-cron)
+      - [Edit Cron Job Timing](#edit-cron-job-timing)
+    - [See Your Actions](#see-your-actions)
   - [Manual Method](#manual-method)
   - [How is the converted videos data stored ?](#how-is-the-converted-videos-data-stored-)
   - [Concern regarding automation of playlists](#concern-regarding-automation-of-playlists)
@@ -50,27 +55,39 @@
 
 
 ### Setting up the cron job
- 
+
+#### Playlist
+
 1. To setup up a Playlist URL for this branch ( this will be used in all subsequent runs )
     ```bash
       ./scripts/prompt-url.sh
     ```
-2. To update the github action to match Anchor password and email
+#### Setup Workflow
+
+1. To update the github action to match Anchor password and email
     ```bash
-      ./scripts/update-worfklow.sh
+      ./scripts/update-workflow.sh
     ```
-3.  To set the job to run at a specific time and edit that time if needed.
+#### Setup Cron
+
+1.  To set the job to run at a specific time and edit that time if needed.
     1.  To cron the job 
         ```bash
           ./scripts/cron-it.sh
         ``` 
     2.  At times, you would want to edit the cronjob, use `crontab -e` and edit it. [Cronguru](https://crontab.guru/) can help you in figuring out the format used in timing a job.
-9.  To check if the cron job is set, you can list it using
+
+#### Edit Cron Job Timing
+
+1.  To check if the cron job is set, you can list it using
        ```bash
         crontab -l
        ```
-10. The action runs every Thursday at 12 pm your machine's local time, the machine needs to be powered on at this hour.
-11. On Github go to a `podcast branch` and under `Actions` tab of a branch, you can see if the action was executed.
+2. The action runs every Thursday at 12 pm your machine's local time, the machine needs to be powered on at this hour.
+
+### See Your Actions
+
+1. On Github go to a `podcast branch` and under `Actions` tab of a branch, you can see if the action was executed.
 
 ## Manual Method
 
