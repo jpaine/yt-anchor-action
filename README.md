@@ -18,11 +18,11 @@
    ```
 ## Setting up automation of job
 
-1. On [Github](github.com), sync your fork and create a new branch and name it like `podcast_1` and so on. 
-2. Go to secrets and create `ANCHOR_EMAIL_1` and `ANCHOR_PASSWORD_1`. The `_x` naming format are to match branch to podcast credentials.
+1. On [Github](github.com) create a new branch and name it like `podcast_1` and so on. 
+2. Go to secrets and create `ANCHOR_EMAIL_1` and `ANCHOR_PASSWORD_1`. The `_x` naming format are important to match branch to podcast credentials.
 3. If running for first time, clone the repository to a folder in your local machine, change into the folder.
     ```bash
-    git clone <url> && cd yt-anchor-action/
+      git clone <url> && cd yt-anchor-action/
     ```
      1. Later addition or to update the local repository run
         ```bash
@@ -32,7 +32,7 @@
     ```bash
      git switch podcast_1
     ``` 
-5. To setup up a URL for this branch, to be used in all subsequent runs
+5. To setup up a URL for this branch ( this will be used in all subsequent runs )
     ```bash
       ./scripts/prompt-url.sh
     ```
