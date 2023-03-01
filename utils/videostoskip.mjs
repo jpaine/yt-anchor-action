@@ -8,7 +8,6 @@ import fs from 'node:fs'
  */
 
  export default function videosToSkip(playlistIDArray) {
-    var convertedVideoID
     try {
       // Read the file that stores converted videos objects
       const convertedVideosObj = JSON.parse(fs.readFileSync('convertedVideos.json', 'utf8'));
@@ -17,13 +16,15 @@ import fs from 'node:fs'
       if(convertedVideosObj.videoQuantity === 0 ){
         console.log("No videos uploaded to anchor FM yet")
         console.log("========== First Run ==============")
-        return false
+        if(playlistIDArray.length !==0){
+          return playlistIDArray
+        }else{
+          return false
+        }
       }else{
         // This needs to be a loop over all the IDs and if it's a match or not
         var videosArray = convertedVideosObj.videos
-        const convertedIDArray = videosArray.map(element => {
-          return element.ID
-        })
+        const convertedIDArray = videosArray.map(element => {return element.ID})
         // Check if a video is already converted
         const notConverted = playlistIDArray.filter(element => !convertedIDArray.includes(element));
         return notConverted
