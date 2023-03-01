@@ -73,20 +73,21 @@
     ```
 #### Setup Cron
 
-1.  To set the job to run at a specific time and edit that time if needed.
+1.  To set the job to run at a specific time.
     1.  To cron the job 
         ```bash
           ./scripts/cron-it.sh
         ``` 
-    2.  At times, you would want to edit the cronjob, use `crontab -e` and edit it. [Cronguru](https://crontab.guru/) can help you in figuring out the format used in timing a job.
+    2. The job runs every Thursday at 12 pm your machine's local time, the machine needs to be powered on at this hour. To change this see next section.
 
 #### Edit Cron Job Timing
 
-1.  To check if the cron job is set, you can list it using
-       ```bash
-        crontab -l
-       ```
-2. The action runs every Thursday at 12 pm your machine's local time, the machine needs to be powered on at this hour.
+1. At times, you would want to edit the cronjob, use `crontab -e` and edit it. [Cronguru](https://crontab.guru/) can help you in figuring out the format used in timing a job.
+
+2. To check if the cron job is set, you can list it using
+    ```bash
+     crontab -l
+    ```
 
 ### See Your Actions
 
