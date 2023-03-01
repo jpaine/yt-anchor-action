@@ -36,7 +36,7 @@
 ### Creating a new podcast
 
 1. On [Github](github.com) 
-   1. Fork the `local-cron` branch
+   1. Fork the Repository or sync fork. Make sure you get the branch `local-cron`.
    2. Create `new branch from local-cron` and name it like `podcast_1`. 
 2. Go to secrets and create `ANCHOR_EMAIL_1` and `ANCHOR_PASSWORD_1`. 
     > The `_x` naming format are important to match branch to podcast credentials.
