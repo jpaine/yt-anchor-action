@@ -36,7 +36,7 @@
 3. Get a Fine-Grained PAT for the repository from [Github](github.com) `Account->Settings->Developer Settings`. [Personal access token how to](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token#creating-a-fine-grained-personal-access-token) with following permissions  
 ![Screenshot 2023-03-01 at 17-49-37 Fine-grained Personal Access Tokens](https://user-images.githubusercontent.com/34445750/222138260-a80aecff-9325-46b4-8020-6978826a0c50.png)
 4. Make `gh` your credential manager  `gh auth setup-git`
-5. `git auth login` will help you set things up. For help [gh auth login][https://cli.github.com/manual/gh_auth_login] 
+5. `git auth login` will help you set things up. For help [gh auth login](https://cli.github.com/manual/gh_auth_login) 
 6. List your token `gh auth token` to see if it is set up correctly.
 
 ### Creating a new podcast
