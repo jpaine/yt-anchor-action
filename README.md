@@ -5,7 +5,6 @@
   - [Prerequisite](#prerequisite)
   - [Setting up automation](#setting-up-automation)
     - [Set up Github Credentials](#set-up-github-credentials)
-      - [On your machine](#on-your-machine)
     - [Creating a new podcast](#creating-a-new-podcast)
     - [Setting up the cron job](#setting-up-the-cron-job)
       - [Playlist](#playlist)
@@ -34,14 +33,11 @@
 
 1. Install [Homebrew](https://brew.sh/)
 2. Install [Github CLI](https://github.com/cli/cli#installation)
-3. Get a Fine-Grained PAT for the repository. [Personal access token how to](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token#creating-a-fine-grained-personal-access-token) with following permissions  
+3. Get a Fine-Grained PAT for the repository from [Github](github.com) `Account->Settings->Developer Settings`. [Personal access token how to](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token#creating-a-fine-grained-personal-access-token) with following permissions  
 ![Screenshot 2023-03-01 at 17-49-37 Fine-grained Personal Access Tokens](https://user-images.githubusercontent.com/34445750/222138260-a80aecff-9325-46b4-8020-6978826a0c50.png)
-
-#### On your machine 
-
-1. Make `gh` your credential manager  `gh auth setup-git`
-2. `git auth login` will help you set things up. For help [gh auth login][https://cli.github.com/manual/gh_auth_login] 
-3. List your token `gh auth token` to see if it is set up correctly.
+4. Make `gh` your credential manager  `gh auth setup-git`
+5. `git auth login` will help you set things up. For help [gh auth login][https://cli.github.com/manual/gh_auth_login] 
+6. List your token `gh auth token` to see if it is set up correctly.
 
 ### Creating a new podcast
 
