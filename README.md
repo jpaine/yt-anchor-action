@@ -5,6 +5,7 @@
   - [Prerequisite](#prerequisite)
   - [Setting up automation](#setting-up-automation)
     - [Set up Github Credentials](#set-up-github-credentials)
+      - [On your machine](#on-your-machine)
     - [Creating a new podcast](#creating-a-new-podcast)
     - [Setting up the cron job](#setting-up-the-cron-job)
       - [Playlist](#playlist)
@@ -35,8 +36,12 @@
 2. Install [Github CLI](https://github.com/cli/cli#installation)
 3. Get a Fine-Grained PAT for the repository. [Personal access token how to](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token#creating-a-fine-grained-personal-access-token) with following permissions  
 ![Screenshot 2023-03-01 at 17-49-37 Fine-grained Personal Access Tokens](https://user-images.githubusercontent.com/34445750/222138260-a80aecff-9325-46b4-8020-6978826a0c50.png)
-4. Make `gh` your credential manager  `gh auth setup-git`
-5. List your token `gh auth token`
+
+#### On your machine 
+
+1. Make `gh` your credential manager  `gh auth setup-git`
+2. `git auth login` will help you set things up. For help [gh auth login][https://cli.github.com/manual/gh_auth_login] 
+3. List your token `gh auth token` to see if it is set up correctly.
 
 ### Creating a new podcast
 
@@ -110,13 +115,13 @@ For first run the `convertedVideos.json` file should have the following keys.
 
 ## Concern regarding automation of playlists
 
-> Automation depends on the [npm package](https://www.npmjs.com/package/@fabricio-191/youtube) to fetch playlist related information without use of an API key.
+> **NOTE:** Automation depends on this [npm package](https://www.npmjs.com/package/@fabricio-191/youtube) to fetch playlist related information without use of an API key.
 
 > **Warning:** There might be concerns regarding violation of Github TOS when it comes to uploading of a playlist. [Read more here](https://github.com/Schrodinger-Hat/youtube-to-anchorfm#how-to-upload-a-youtube-playlist-to-anchorfm-using-this-script)
 
-> At times some fields don't get populated on AnchorFM (eg. title being untitled), this is dependent on Github Action and will need manual intervention.
+> **Manual Effort:** At times some fields don't get populated on AnchorFM (eg. title being untitled), this is dependent on Github Action and will need manual intervention.
 
-> Github allows for 2000 min of action usage per month. Once you run out of these get an account or wait for next month.
+> **Limitation:** Github allows for 2000 min of action usage per month. Once you run out of these get an account or wait for next month.
 
 <!-- ### Processing a playlist
 
