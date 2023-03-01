@@ -70,8 +70,8 @@ function episodeIterator() {
     var notConverted = videosToSkip(playlistIDArray)
 
     // Iterate over the length of fetched playlist
-    if (notConverted.length == 0){
-      console.log("No Video to Convert, all have been converted.")
+    if (notConverted.length == 0 && playlistIDArray.length == 0){
+      console.log("No video to convert. Please check cronJob.log for more information")
     }else{
       for (let index = 0; index < notConverted.length; index++) {
         console.log(`-> Convert and upload video with id ${notConverted[index]}`)
