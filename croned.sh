@@ -19,6 +19,7 @@ while read branch; do
   # switch to branch
   git switch "$branch"
   echo "Switched to branch: $branch"
+  git status
   # Run the program
   # ./hello.sh
 done < branches.txt
