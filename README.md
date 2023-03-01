@@ -7,7 +7,7 @@
     - [Set up Github Credentials](#set-up-github-credentials)
     - [Creating a new podcast](#creating-a-new-podcast)
     - [Setting up the cron job](#setting-up-the-cron-job)
-  - [Manual](#manual)
+  - [Manual Method](#manual-method)
   - [How is the converted videos data stored ?](#how-is-the-converted-videos-data-stored-)
   - [Concern regarding automation of playlists](#concern-regarding-automation-of-playlists)
 
@@ -72,7 +72,7 @@
 10. The action runs every Thursday at 12 pm your machine's local time, the machine needs to be powered on at this hour.
 11. On Github go to a `podcast branch` and under `Actions` tab of a branch, you can see if the action was executed.
 
-## Manual
+## Manual Method
 
 The manual method is still available from `main` branch and using a `codespace`, same as before. If it is ever needed.
 
