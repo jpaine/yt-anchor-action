@@ -12,11 +12,13 @@ git branch --list --format='%(refname:lstrip=2)' | grep '^podcast_' > branches.t
 
 echo $(date) >> cronJob.log
 
+# git config --list
+
 # Loop through each branch and switch to it
 while read branch; do
   # switch to branch
   git switch "$branch"
   echo "Switched to branch: $branch"
   # Run the program
-  ./hello.sh
+  # ./hello.sh
 done < branches.txt

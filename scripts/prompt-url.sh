@@ -47,4 +47,4 @@ fi
 
 # Use the URL for further processing
 # echo "Processing URL: $URL"
-echo -e "\n := If you wish to change the Playlist URL, first delete branch_playlist.txt and run the program again\n"
+echo -e "\n -=> If you wish to change the Playlist URL, first delete branch_playlist.txt and run the program again\n"

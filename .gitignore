@@ -8,3 +8,4 @@ branch_playlist.txt
 *.log
 hello.sh
 branches.txt
+foo*
