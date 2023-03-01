@@ -1,6 +1,8 @@
 #!/bin/bash
 # Purpose: Create a cronjob for the program
 
+clear
+
 # Path to the script to be run
 SCRIPT_PATH=$(pwd)/croned.sh
 # Log file path
@@ -11,7 +13,12 @@ LOG_FILE=$(pwd)/cronJob.log
 
 # Set the PATH to crontab
 # 
-echo "**IMPORTANT** : Steps"
-echo "Run: crontab -e" 
-echo "The following SHOULD be made the first line"
+echo "**IMPORTANT** : Please do the following steps before proceeding"
+echo
+echo -e "The following line(s) SHOULD be made the first 
+line of crontab file(this is to do with PATH environment variable)
+"
 echo "PATH="$PATH
+echo 
+echo -e "** == Run the following command on a terminal and paste the above line(s) there == ** \n" 
+echo "crontab -e" 

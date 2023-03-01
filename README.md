@@ -78,7 +78,7 @@
         ```bash
           ./scripts/cron-it.sh
         ``` 
-    2. The job runs every Thursday at 12 pm your machine's local time, the machine needs to be powered on at this hour. To change this see next section.
+    2. The job runs every Thursday at 12 pm your machine's local time, the machine needs to be powered on at this hour. To change the timings see next section.
 
 #### Edit Cron Job Timing
 
