@@ -26,8 +26,8 @@
 
 > If you are not using any `GCM (Git Credential Manager)` which already has `Personal Access Token` to authenticate you with Github, do the following steps. Otherwise, skip.
 
-1. Install Homebrew [https://brew.sh/]
-2. Install Github CLI [https://github.com/cli/cli#installation]
+1. Install [Homebrew](https://brew.sh/)
+2. Install [Github CLI](https://github.com/cli/cli#installation)
 3. Get a Fine-Grained PAT for the repository. [Personal access token how to](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token#creating-a-fine-grained-personal-access-token) with following permissions  
 ![Screenshot 2023-03-01 at 17-49-37 Fine-grained Personal Access Tokens](https://user-images.githubusercontent.com/34445750/222138260-a80aecff-9325-46b4-8020-6978826a0c50.png)
 4. Make `gh` your credential manager  `gh auth setup-git`
