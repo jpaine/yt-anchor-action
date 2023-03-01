@@ -1,6 +1,6 @@
 # (Local Cron) Automating youtube video to anchor fm audio
 
-[Codespaces workflow on main branch](https://github.com/MandarDevarshi/yt-anchor-action/tree/main)
+[Older codespaces workflow is still available on the main branch](https://github.com/MandarDevarshi/yt-anchor-action/tree/main)
 
 **Table of Content**
 - [(Local Cron) Automating youtube video to anchor fm audio](#local-cron-automating-youtube-video-to-anchor-fm-audio)
