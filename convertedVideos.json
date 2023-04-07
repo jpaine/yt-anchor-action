@@ -1,7 +1,7 @@
 {
   "name": "Upload processed data",
-  "videoQuantity": 76,
-  "lastUpdated": "2023-04-02T05:01:32.475Z",
+  "videoQuantity": 94,
+  "lastUpdated": "2023-04-07T13:45:43.000Z",
   "videos": [
     {
       "title": "Tesla AI Day Highlights | Lex Fridman",
@@ -2933,6 +2933,708 @@
       "ID": "pWFWvVMESnM",
       "URL": "https://www.youtube.com/watch?v=pWFWvVMESnM",
       "index": 17,
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/pWFWvVMESnM/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCRceZgQ2aQQbzG2xClygEzriOcwQ",
+          "width": 336,
+          "height": 188
+        },
+        {
+          "url": "https://i.ytimg.com/vi/pWFWvVMESnM/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCo5zWtorNXIRoiqANIqWTgyyQE3g",
+          "width": 246,
+          "height": 138
+        },
+        {
+          "url": "https://i.ytimg.com/vi/pWFWvVMESnM/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLD0nOZSXa02GLTW7t2-Hlz3r7vgPA",
+          "width": 196,
+          "height": 110
+        },
+        {
+          "url": "https://i.ytimg.com/vi/pWFWvVMESnM/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLDEk57RrRm-8ghUdi7ImzzRLie__Q",
+          "width": 168,
+          "height": 94
+        }
+      ],
+      "duration": {
+        "normal": "1:40",
+        "long": "1 minute, 40 seconds",
+        "number": 100
+      },
+      "owner": {
+        "name": "OxfordUnion",
+        "ID": "UCY7dD6waquGnKTZSumPMTlQ",
+        "URL": "https://www.youtube.com/channel/UCY7dD6waquGnKTZSumPMTlQ",
+        "canonicalURL": "https://www.youtube.com/@OxfordUnion"
+      }
+    },
+    {
+      "title": "Jeremy Vine | Cambridge Union",
+      "ID": "aD3s3_PzvbI",
+      "URL": "https://www.youtube.com/watch?v=aD3s3_PzvbI",
+      "index": 1,
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/aD3s3_PzvbI/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCc0JM3cQnWjFn_njEStWzkx424ZA",
+          "width": 336,
+          "height": 188
+        },
+        {
+          "url": "https://i.ytimg.com/vi/aD3s3_PzvbI/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLA2SeP6X3TMT29bOWTgwCo0OjQu2Q",
+          "width": 246,
+          "height": 138
+        },
+        {
+          "url": "https://i.ytimg.com/vi/aD3s3_PzvbI/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLB6QsQKAjSmVqE-7QsBf5OxqnpdfQ",
+          "width": 196,
+          "height": 110
+        },
+        {
+          "url": "https://i.ytimg.com/vi/aD3s3_PzvbI/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLDIVMX8r1gquHUvwBy_OF-KM3HHyA",
+          "width": 168,
+          "height": 94
+        }
+      ],
+      "duration": {
+        "normal": "1:05:11",
+        "long": "1 hour, 5 minutes, 11 seconds",
+        "number": 3911
+      },
+      "owner": {
+        "name": "Cambridge Union",
+        "ID": "UClOuePXlJnw8-br7SXiuHqg",
+        "URL": "https://www.youtube.com/channel/UClOuePXlJnw8-br7SXiuHqg",
+        "canonicalURL": "https://www.youtube.com/@cambridgeunionsoc1815"
+      }
+    },
+    {
+      "title": "Memeulous | Cambridge Union",
+      "ID": "mipQn9BN_rc",
+      "URL": "https://www.youtube.com/watch?v=mipQn9BN_rc",
+      "index": 2,
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/mipQn9BN_rc/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBhq5IcmkH2ysbXGykQRcbl6LPBPQ",
+          "width": 336,
+          "height": 188
+        },
+        {
+          "url": "https://i.ytimg.com/vi/mipQn9BN_rc/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDE1Y8W9EQiRCIX6QgCDiG4PFfISA",
+          "width": 246,
+          "height": 138
+        },
+        {
+          "url": "https://i.ytimg.com/vi/mipQn9BN_rc/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLBJL6t9LzeMpitAiUALfNb2xMCFeA",
+          "width": 196,
+          "height": 110
+        },
+        {
+          "url": "https://i.ytimg.com/vi/mipQn9BN_rc/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLAb_qgvJfVcyOatBYjPkUVs0e9V3g",
+          "width": 168,
+          "height": 94
+        }
+      ],
+      "duration": {
+        "normal": "54:49",
+        "long": "54 minutes, 49 seconds",
+        "number": 3289
+      },
+      "owner": {
+        "name": "Cambridge Union",
+        "ID": "UClOuePXlJnw8-br7SXiuHqg",
+        "URL": "https://www.youtube.com/channel/UClOuePXlJnw8-br7SXiuHqg",
+        "canonicalURL": "https://www.youtube.com/@cambridgeunionsoc1815"
+      }
+    },
+    {
+      "title": "Yanis Varoufakis | Cambridge Union",
+      "ID": "6u4YdHAgwd4",
+      "URL": "https://www.youtube.com/watch?v=6u4YdHAgwd4",
+      "index": 3,
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/6u4YdHAgwd4/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLByXyTb5hxDNfpPWjTuyE6InRguGA",
+          "width": 336,
+          "height": 188
+        },
+        {
+          "url": "https://i.ytimg.com/vi/6u4YdHAgwd4/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAYycsHHB5FFgNH6cAAGV_mMdYQjw",
+          "width": 246,
+          "height": 138
+        },
+        {
+          "url": "https://i.ytimg.com/vi/6u4YdHAgwd4/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLAfSFobKUcz6Y6IYv-s0Cx-05BEtA",
+          "width": 196,
+          "height": 110
+        },
+        {
+          "url": "https://i.ytimg.com/vi/6u4YdHAgwd4/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLBQvuL32FrqgRXzvXpDKlmLwely9g",
+          "width": 168,
+          "height": 94
+        }
+      ],
+      "duration": {
+        "normal": "1:06:05",
+        "long": "1 hour, 6 minutes, 5 seconds",
+        "number": 3965
+      },
+      "owner": {
+        "name": "Cambridge Union",
+        "ID": "UClOuePXlJnw8-br7SXiuHqg",
+        "URL": "https://www.youtube.com/channel/UClOuePXlJnw8-br7SXiuHqg",
+        "canonicalURL": "https://www.youtube.com/@cambridgeunionsoc1815"
+      }
+    },
+    {
+      "title": "Sir John Major questioned by Oxford students",
+      "ID": "nutpaMhsfKE",
+      "URL": "https://www.youtube.com/watch?v=nutpaMhsfKE",
+      "index": 4,
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/nutpaMhsfKE/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDOTrDg0KGm5efgntIQF6-YRQWntg",
+          "width": 336,
+          "height": 188
+        },
+        {
+          "url": "https://i.ytimg.com/vi/nutpaMhsfKE/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAoDnUn9CYksdW8h8e8vQJummDEAg",
+          "width": 246,
+          "height": 138
+        },
+        {
+          "url": "https://i.ytimg.com/vi/nutpaMhsfKE/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLC2uMeQG0Iyiqgsv-fKzxUIrZ4xRg",
+          "width": 196,
+          "height": 110
+        },
+        {
+          "url": "https://i.ytimg.com/vi/nutpaMhsfKE/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLAY8pSF6-cvB50dLiNuNyvtKaDeeA",
+          "width": 168,
+          "height": 94
+        }
+      ],
+      "duration": {
+        "normal": "44:36",
+        "long": "44 minutes, 36 seconds",
+        "number": 2676
+      },
+      "owner": {
+        "name": "OxfordUnion",
+        "ID": "UCY7dD6waquGnKTZSumPMTlQ",
+        "URL": "https://www.youtube.com/channel/UCY7dD6waquGnKTZSumPMTlQ",
+        "canonicalURL": "https://www.youtube.com/@OxfordUnion"
+      }
+    },
+    {
+      "title": "Sir John Major addresses Oxford University",
+      "ID": "2W3vKLMtRgQ",
+      "URL": "https://www.youtube.com/watch?v=2W3vKLMtRgQ",
+      "index": 5,
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/2W3vKLMtRgQ/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLApkQj1Km76skR8T5Uhm-gukVE3aA",
+          "width": 336,
+          "height": 188
+        },
+        {
+          "url": "https://i.ytimg.com/vi/2W3vKLMtRgQ/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDwhFy8lGl5Mq-q96oYkKh_qZGyjw",
+          "width": 246,
+          "height": 138
+        },
+        {
+          "url": "https://i.ytimg.com/vi/2W3vKLMtRgQ/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLB9Pu7fmzg63w_WDeSxUivcywPqqA",
+          "width": 196,
+          "height": 110
+        },
+        {
+          "url": "https://i.ytimg.com/vi/2W3vKLMtRgQ/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLAQ0yWOjnuxfFDY1TE6A02VCPTw8A",
+          "width": 168,
+          "height": 94
+        }
+      ],
+      "duration": {
+        "normal": "25:49",
+        "long": "25 minutes, 49 seconds",
+        "number": 1549
+      },
+      "owner": {
+        "name": "OxfordUnion",
+        "ID": "UCY7dD6waquGnKTZSumPMTlQ",
+        "URL": "https://www.youtube.com/channel/UCY7dD6waquGnKTZSumPMTlQ",
+        "canonicalURL": "https://www.youtube.com/@OxfordUnion"
+      }
+    },
+    {
+      "title": "Matt Hancock grilled by Oxford Students | Oxford Union",
+      "ID": "-fUkEv69YOM",
+      "URL": "https://www.youtube.com/watch?v=-fUkEv69YOM",
+      "index": 6,
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/-fUkEv69YOM/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDLTDttOXTqswK-6i8Z8F-1ISl77A",
+          "width": 336,
+          "height": 188
+        },
+        {
+          "url": "https://i.ytimg.com/vi/-fUkEv69YOM/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAEp6VVw6do8706RSUsZryqh5OH9g",
+          "width": 246,
+          "height": 138
+        },
+        {
+          "url": "https://i.ytimg.com/vi/-fUkEv69YOM/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLDC_Cay4ecllCOXP4jIylnZapj4jQ",
+          "width": 196,
+          "height": 110
+        },
+        {
+          "url": "https://i.ytimg.com/vi/-fUkEv69YOM/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLDS6y0uzNekZ0n7ttLyqVY55nzYqA",
+          "width": 168,
+          "height": 94
+        }
+      ],
+      "duration": {
+        "normal": "45:11",
+        "long": "45 minutes, 11 seconds",
+        "number": 2711
+      },
+      "owner": {
+        "name": "OxfordUnion",
+        "ID": "UCY7dD6waquGnKTZSumPMTlQ",
+        "URL": "https://www.youtube.com/channel/UCY7dD6waquGnKTZSumPMTlQ",
+        "canonicalURL": "https://www.youtube.com/@OxfordUnion"
+      }
+    },
+    {
+      "title": "Matt Hancock on Covid, I'm A Celebrity, and honesty in politics | Oxford Union",
+      "ID": "pH6Xh4Aqr5U",
+      "URL": "https://www.youtube.com/watch?v=pH6Xh4Aqr5U",
+      "index": 7,
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/pH6Xh4Aqr5U/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBT_gR6xrY2Iujr8vXyCMJdkYB2yQ",
+          "width": 336,
+          "height": 188
+        },
+        {
+          "url": "https://i.ytimg.com/vi/pH6Xh4Aqr5U/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBGLVoaToYmEPMD26ilPH8lLbK2ZQ",
+          "width": 246,
+          "height": 138
+        },
+        {
+          "url": "https://i.ytimg.com/vi/pH6Xh4Aqr5U/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLAKJrNTV7mG8VRceubVn9Be2SgGrw",
+          "width": 196,
+          "height": 110
+        },
+        {
+          "url": "https://i.ytimg.com/vi/pH6Xh4Aqr5U/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLCsFQIjXwPdnC77oG8ubjkXD5iUhg",
+          "width": 168,
+          "height": 94
+        }
+      ],
+      "duration": {
+        "normal": "30:56",
+        "long": "30 minutes, 56 seconds",
+        "number": 1856
+      },
+      "owner": {
+        "name": "OxfordUnion",
+        "ID": "UCY7dD6waquGnKTZSumPMTlQ",
+        "URL": "https://www.youtube.com/channel/UCY7dD6waquGnKTZSumPMTlQ",
+        "canonicalURL": "https://www.youtube.com/@OxfordUnion"
+      }
+    },
+    {
+      "title": "HE Nguyễn Hoàng Long | Cambridge Union",
+      "ID": "np09OkNlMlg",
+      "URL": "https://www.youtube.com/watch?v=np09OkNlMlg",
+      "index": 8,
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/np09OkNlMlg/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDLpFIhW6pexdFagYFgAMaw4k6ulQ",
+          "width": 336,
+          "height": 188
+        },
+        {
+          "url": "https://i.ytimg.com/vi/np09OkNlMlg/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCUnfMJk_UTGd1GIWlx9TNisu49KQ",
+          "width": 246,
+          "height": 138
+        },
+        {
+          "url": "https://i.ytimg.com/vi/np09OkNlMlg/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLBMp-JuUr6NpWwOLu0lOsI2tiGU5w",
+          "width": 196,
+          "height": 110
+        },
+        {
+          "url": "https://i.ytimg.com/vi/np09OkNlMlg/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLAMqnDdQ-wTTp1o4Y38dafTiRcUNw",
+          "width": 168,
+          "height": 94
+        }
+      ],
+      "duration": {
+        "normal": "1:15:45",
+        "long": "1 hour, 15 minutes, 45 seconds",
+        "number": 4545
+      },
+      "owner": {
+        "name": "Cambridge Union",
+        "ID": "UClOuePXlJnw8-br7SXiuHqg",
+        "URL": "https://www.youtube.com/channel/UClOuePXlJnw8-br7SXiuHqg",
+        "canonicalURL": "https://www.youtube.com/@cambridgeunionsoc1815"
+      }
+    },
+    {
+      "title": "Bernie Sanders questioned by Oxford Students",
+      "ID": "yShH6MNQuXQ",
+      "URL": "https://www.youtube.com/watch?v=yShH6MNQuXQ",
+      "index": 9,
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/yShH6MNQuXQ/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLC3dIyCrL3xcsW9AAFuM1iyr23HdA",
+          "width": 336,
+          "height": 188
+        },
+        {
+          "url": "https://i.ytimg.com/vi/yShH6MNQuXQ/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDlS5FB3GbQmAm28Rtahn4Vzau3Qw",
+          "width": 246,
+          "height": 138
+        },
+        {
+          "url": "https://i.ytimg.com/vi/yShH6MNQuXQ/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLDBn_D-a0SntMBmZIidRGByAO1kbQ",
+          "width": 196,
+          "height": 110
+        },
+        {
+          "url": "https://i.ytimg.com/vi/yShH6MNQuXQ/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLAZi68RlP4cb2Kb0MAI-M5rnR46zA",
+          "width": 168,
+          "height": 94
+        }
+      ],
+      "duration": {
+        "normal": "28:37",
+        "long": "28 minutes, 37 seconds",
+        "number": 1717
+      },
+      "owner": {
+        "name": "OxfordUnion",
+        "ID": "UCY7dD6waquGnKTZSumPMTlQ",
+        "URL": "https://www.youtube.com/channel/UCY7dD6waquGnKTZSumPMTlQ",
+        "canonicalURL": "https://www.youtube.com/@OxfordUnion"
+      }
+    },
+    {
+      "title": "Bernie Sanders addresses Oxford University",
+      "ID": "p7bS3pxu124",
+      "URL": "https://www.youtube.com/watch?v=p7bS3pxu124",
+      "index": 10,
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/p7bS3pxu124/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCbp_dswcNffeiXCJ9mpgJdEMEx5w",
+          "width": 336,
+          "height": 188
+        },
+        {
+          "url": "https://i.ytimg.com/vi/p7bS3pxu124/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAkqukDbcIJkuKfGDf1euwsthMZuw",
+          "width": 246,
+          "height": 138
+        },
+        {
+          "url": "https://i.ytimg.com/vi/p7bS3pxu124/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLBbjyTDtkUqS7GdGkqkLK8MnnOhJg",
+          "width": 196,
+          "height": 110
+        },
+        {
+          "url": "https://i.ytimg.com/vi/p7bS3pxu124/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLAXDUouolgEB7VdPDGAPzJeZNefjg",
+          "width": 168,
+          "height": 94
+        }
+      ],
+      "duration": {
+        "normal": "33:06",
+        "long": "33 minutes, 6 seconds",
+        "number": 1986
+      },
+      "owner": {
+        "name": "OxfordUnion",
+        "ID": "UCY7dD6waquGnKTZSumPMTlQ",
+        "URL": "https://www.youtube.com/channel/UCY7dD6waquGnKTZSumPMTlQ",
+        "canonicalURL": "https://www.youtube.com/@OxfordUnion"
+      }
+    },
+    {
+      "title": "Israel, UAE, and Bahrain debate the Abraham Accords | Oxford Union",
+      "ID": "TcCPO6p_qJI",
+      "URL": "https://www.youtube.com/watch?v=TcCPO6p_qJI",
+      "index": 11,
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/TcCPO6p_qJI/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDBELAfqQaApIOZGHhgBuYprTtfEw",
+          "width": 336,
+          "height": 188
+        },
+        {
+          "url": "https://i.ytimg.com/vi/TcCPO6p_qJI/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCcratejpfWZF4L2vl6VfxIjnUZNA",
+          "width": 246,
+          "height": 138
+        },
+        {
+          "url": "https://i.ytimg.com/vi/TcCPO6p_qJI/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLCrFgp_u94NcD9CTFNeCqS8q0c2Kg",
+          "width": 196,
+          "height": 110
+        },
+        {
+          "url": "https://i.ytimg.com/vi/TcCPO6p_qJI/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLDCD_PBq-pw6qInww9W9KS2fsM3HQ",
+          "width": 168,
+          "height": 94
+        }
+      ],
+      "duration": {
+        "normal": "1:04:44",
+        "long": "1 hour, 4 minutes, 44 seconds",
+        "number": 3884
+      },
+      "owner": {
+        "name": "OxfordUnion",
+        "ID": "UCY7dD6waquGnKTZSumPMTlQ",
+        "URL": "https://www.youtube.com/channel/UCY7dD6waquGnKTZSumPMTlQ",
+        "canonicalURL": "https://www.youtube.com/@OxfordUnion"
+      }
+    },
+    {
+      "title": "Triple Amputee Veteran Mark Ormrod gets Standing Ovation | Oxford Union",
+      "ID": "4xvW9FBzMAs",
+      "URL": "https://www.youtube.com/watch?v=4xvW9FBzMAs",
+      "index": 12,
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/4xvW9FBzMAs/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBFr758fwYUJmcy9VdbGdnp4nBF2Q",
+          "width": 336,
+          "height": 188
+        },
+        {
+          "url": "https://i.ytimg.com/vi/4xvW9FBzMAs/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAda9BYQkvqpAKIH0CW9UkZMKOKqQ",
+          "width": 246,
+          "height": 138
+        },
+        {
+          "url": "https://i.ytimg.com/vi/4xvW9FBzMAs/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLCngWruxNw6gjWsDilqQRacdtrGqQ",
+          "width": 196,
+          "height": 110
+        },
+        {
+          "url": "https://i.ytimg.com/vi/4xvW9FBzMAs/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLBddAECofcrlfTXwLzPOZkFn8TLyw",
+          "width": 168,
+          "height": 94
+        }
+      ],
+      "duration": {
+        "normal": "3:07",
+        "long": "3 minutes, 7 seconds",
+        "number": 187
+      },
+      "owner": {
+        "name": "OxfordUnion",
+        "ID": "UCY7dD6waquGnKTZSumPMTlQ",
+        "URL": "https://www.youtube.com/channel/UCY7dD6waquGnKTZSumPMTlQ",
+        "canonicalURL": "https://www.youtube.com/@OxfordUnion"
+      }
+    },
+    {
+      "title": "Leader of Tibet address | Oxford Union",
+      "ID": "eDHDPKzOTWY",
+      "URL": "https://www.youtube.com/watch?v=eDHDPKzOTWY",
+      "index": 13,
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/eDHDPKzOTWY/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAJ4jJpJokMH0OPVDIzpn-ltQCGIA",
+          "width": 336,
+          "height": 188
+        },
+        {
+          "url": "https://i.ytimg.com/vi/eDHDPKzOTWY/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBY_SdDeJYlGUrzISDGtkYAQv8kCA",
+          "width": 246,
+          "height": 138
+        },
+        {
+          "url": "https://i.ytimg.com/vi/eDHDPKzOTWY/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLBl4Qfwz6dbStM7VHDFpZ5henc6uw",
+          "width": 196,
+          "height": 110
+        },
+        {
+          "url": "https://i.ytimg.com/vi/eDHDPKzOTWY/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLAITNS_0NT9bvhF-d7EvK6wXPG_lA",
+          "width": 168,
+          "height": 94
+        }
+      ],
+      "duration": {
+        "normal": "1:10:11",
+        "long": "1 hour, 10 minutes, 11 seconds",
+        "number": 4211
+      },
+      "owner": {
+        "name": "OxfordUnion",
+        "ID": "UCY7dD6waquGnKTZSumPMTlQ",
+        "URL": "https://www.youtube.com/channel/UCY7dD6waquGnKTZSumPMTlQ",
+        "canonicalURL": "https://www.youtube.com/@OxfordUnion"
+      }
+    },
+    {
+      "title": "This House Believes the UK is Failing and Would Rather Go International | The Great Industry Debate",
+      "ID": "a-N6eNT2EBI",
+      "URL": "https://www.youtube.com/watch?v=a-N6eNT2EBI",
+      "index": 14,
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/a-N6eNT2EBI/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBaBuC2PP_USXBoeTdIW4OjtZ2gbQ",
+          "width": 336,
+          "height": 188
+        },
+        {
+          "url": "https://i.ytimg.com/vi/a-N6eNT2EBI/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCU8kyD5Yisf0FI_eUXUkRlhknikQ",
+          "width": 246,
+          "height": 138
+        },
+        {
+          "url": "https://i.ytimg.com/vi/a-N6eNT2EBI/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLAddDAYBRPZGrSCaWqnlWurGIrRFw",
+          "width": 196,
+          "height": 110
+        },
+        {
+          "url": "https://i.ytimg.com/vi/a-N6eNT2EBI/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLCmq_ZmlgKOa-l0NAt3A9IbhZ79Ig",
+          "width": 168,
+          "height": 94
+        }
+      ],
+      "duration": {
+        "normal": "1:03:00",
+        "long": "1 hour, 3 minutes",
+        "number": 3780
+      },
+      "owner": {
+        "name": "Cambridge Union",
+        "ID": "UClOuePXlJnw8-br7SXiuHqg",
+        "URL": "https://www.youtube.com/channel/UClOuePXlJnw8-br7SXiuHqg",
+        "canonicalURL": "https://www.youtube.com/@cambridgeunionsoc1815"
+      }
+    },
+    {
+      "title": "Lord Sumption, Sir Vince Cable, and Sir John Curtice debate constitutional reform | Oxford Union",
+      "ID": "cTOyERkuwFk",
+      "URL": "https://www.youtube.com/watch?v=cTOyERkuwFk",
+      "index": 15,
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/cTOyERkuwFk/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDvu9uKpjNh_9pG-iWhD4rnj88ocw",
+          "width": 336,
+          "height": 188
+        },
+        {
+          "url": "https://i.ytimg.com/vi/cTOyERkuwFk/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLD6jM7KADKsVgtmXRlA62m4jQVVIQ",
+          "width": 246,
+          "height": 138
+        },
+        {
+          "url": "https://i.ytimg.com/vi/cTOyERkuwFk/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLBLL3mf4DIwx5n8qJlChMIxmYWKnw",
+          "width": 196,
+          "height": 110
+        },
+        {
+          "url": "https://i.ytimg.com/vi/cTOyERkuwFk/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLDz-47VQjHDGPOVEYRBwytCCmIcEQ",
+          "width": 168,
+          "height": 94
+        }
+      ],
+      "duration": {
+        "normal": "1:25:29",
+        "long": "1 hour, 25 minutes, 29 seconds",
+        "number": 5129
+      },
+      "owner": {
+        "name": "OxfordUnion",
+        "ID": "UCY7dD6waquGnKTZSumPMTlQ",
+        "URL": "https://www.youtube.com/channel/UCY7dD6waquGnKTZSumPMTlQ",
+        "canonicalURL": "https://www.youtube.com/@OxfordUnion"
+      }
+    },
+    {
+      "title": "Natalie Dormer: Game of Thrones Actress | Full Q&A | Oxford Union",
+      "ID": "seTdAZhgAZA",
+      "URL": "https://www.youtube.com/watch?v=seTdAZhgAZA",
+      "index": 16,
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/seTdAZhgAZA/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCBYPVdXk9q_vyf7E0uYDQ2x12YPg",
+          "width": 336,
+          "height": 188
+        },
+        {
+          "url": "https://i.ytimg.com/vi/seTdAZhgAZA/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCarPAPk5L_T6IF4ywtxp5x1bZvYg",
+          "width": 246,
+          "height": 138
+        },
+        {
+          "url": "https://i.ytimg.com/vi/seTdAZhgAZA/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLBps0CzQAsT-pCo-koUCypZAo2iLQ",
+          "width": 196,
+          "height": 110
+        },
+        {
+          "url": "https://i.ytimg.com/vi/seTdAZhgAZA/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLCND1SJAtefzofiKhoukXiNHlBJRA",
+          "width": 168,
+          "height": 94
+        }
+      ],
+      "duration": {
+        "normal": "1:04:26",
+        "long": "1 hour, 4 minutes, 26 seconds",
+        "number": 3866
+      },
+      "owner": {
+        "name": "OxfordUnion",
+        "ID": "UCY7dD6waquGnKTZSumPMTlQ",
+        "URL": "https://www.youtube.com/channel/UCY7dD6waquGnKTZSumPMTlQ",
+        "canonicalURL": "https://www.youtube.com/@OxfordUnion"
+      }
+    },
+    {
+      "title": "Peter Thiel on 'Anti-Anti-Anti-Anti Classical Liberalism' | Oxford Union",
+      "ID": "fQ4rc7npiXQ",
+      "URL": "https://www.youtube.com/watch?v=fQ4rc7npiXQ",
+      "index": 17,
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/fQ4rc7npiXQ/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCPKNrwDyJxns23YI4fglsv60p-KQ",
+          "width": 336,
+          "height": 188
+        },
+        {
+          "url": "https://i.ytimg.com/vi/fQ4rc7npiXQ/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDd6_WqK2-UsT3bW6-TPV3TvxU6gQ",
+          "width": 246,
+          "height": 138
+        },
+        {
+          "url": "https://i.ytimg.com/vi/fQ4rc7npiXQ/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLDiTiATXbTDXGBT4IWO476oq2_oFA",
+          "width": 196,
+          "height": 110
+        },
+        {
+          "url": "https://i.ytimg.com/vi/fQ4rc7npiXQ/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLAzSFuM0XKEyEWmOx75nwYwBkFJ7w",
+          "width": 168,
+          "height": 94
+        }
+      ],
+      "duration": {
+        "normal": "1:07:11",
+        "long": "1 hour, 7 minutes, 11 seconds",
+        "number": 4031
+      },
+      "owner": {
+        "name": "OxfordUnion",
+        "ID": "UCY7dD6waquGnKTZSumPMTlQ",
+        "URL": "https://www.youtube.com/channel/UCY7dD6waquGnKTZSumPMTlQ",
+        "canonicalURL": "https://www.youtube.com/@OxfordUnion"
+      }
+    },
+    {
+      "title": "The Oxford Union | 200 years of free speech",
+      "ID": "pWFWvVMESnM",
+      "URL": "https://www.youtube.com/watch?v=pWFWvVMESnM",
+      "index": 18,
       "thumbnails": [
         {
           "url": "https://i.ytimg.com/vi/pWFWvVMESnM/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCRceZgQ2aQQbzG2xClygEzriOcwQ",
