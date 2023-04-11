@@ -9,7 +9,7 @@
 # Get the current branch name
 branch_name=$(git branch --show-current)
 # Replace in place the branch name
-sed -i "s/local_cron/$branch_name/g" .github/workflows/upload-episode.yml
+sed -i "s/local-cron/$branch_name/g" .github/workflows/upload-episode.yml
 
 # Check if the patterns have already been changed
 if grep -q "secrets.ANCHOR_EMAIL_${branch_name#podcast_}" .github/workflows/upload-episode.yml && grep -q "secrets.ANCHOR_PASSWORD_${branch_name#podcast_}" .github/workflows/upload-episode.yml; then

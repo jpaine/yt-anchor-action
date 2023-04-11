@@ -22,8 +22,8 @@ jobs:
       - name: Upload Episode from YouTube To Anchor.Fm
         uses: Schrodinger-Hat/youtube-to-anchorfm@v2.0.0
         env:
-          ANCHOR_EMAIL: ${{ secrets.ANCHOR_EMAIL_local-cron }}
-          ANCHOR_PASSWORD: ${{ secrets.ANCHOR_PASSWORD_local-cron }}
+          ANCHOR_EMAIL: ${{ secrets.ANCHOR_EMAIL }}
+          ANCHOR_PASSWORD: ${{ secrets.ANCHOR_PASSWORD }}
           EPISODE_PATH: /github/workspace
           SAVE_AS_DRAFT: true # Remove to publish directly
           LOAD_THUMBNAIL: true # Remove if thumbnail is not required as episode art
