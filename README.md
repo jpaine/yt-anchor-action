@@ -115,7 +115,7 @@
 1. On your local machine using terminal, navigate into a branch, eg. podcast_1
 2. Run the following command
   ```
-  ./scripts/see-failed.sh
+  ./scripts/rerun-failed.sh
   ```
 ## Manual Method
 
