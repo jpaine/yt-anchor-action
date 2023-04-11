@@ -13,8 +13,9 @@ clear
 # Display a heading
 echo -e "----- YouTube to AnchorFM Utility ----- \n"
 
+branch_name=$(git branch --show-current)
 # The text file where playlist url for this branch is stored
-PLAYLIST_FILE="branch_playlist.txt"
+PLAYLIST_FILE="branch_playlist_${branch_name}.txt"
 
 # Check if the playlist file exists and contains a valid URL
 if [ -f "$PLAYLIST_FILE" ] && [[ $(cat "$PLAYLIST_FILE") =~ ^https?://.+ ]]; then
