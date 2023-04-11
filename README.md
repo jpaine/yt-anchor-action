@@ -66,8 +66,9 @@
       git clone -b <podcast_x> <repository_url> <podcast_x>
     ```
     eg.
-    replace `<podcast_x>` with your new podcast branch eg. podcast_2
+    replace `<podcast_x>` with your new podcast branch eg. podcast_2 <br/>
     replace `<repository_url>` with your repository url eg. https://github.com/username/repo.git
+    
     ```bash
     git clone -b podcast_2 https://github.com/username/repo.git podcast_2
     ```
