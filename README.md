@@ -61,17 +61,17 @@
 1. Open a terminal
 2. If first time, on your local machine create a folder and navigate into the folder before proceeding, as this is where all subsequent podcast branches should be placed.
    1. `mkdir podcasts && cd podcasts/`
-3. Clone the `podcast_x` repository to a folder in your local machine and navigate into the folder.
+3. Clone the `podcast_x` branch to `podcasts/ folder in your local machine` and change into the `podcast_x` folder.
     ```bash
       git clone -b <podcast_x> <repository_url> <podcast_x>
     ```
     eg.
-    ```
     replace `<podcast_x>` with your new podcast branch eg. podcast_2
     replace `<repository_url>` with your repository url eg. https://github.com/username/repo.git
+    ```bash
     git clone -b podcast_2 https://github.com/username/repo.git podcast_2
     ```
-5. Change into the new `podcast_x` directory.
+4. Change into the new `podcast_x` directory.
 
 ### Setting up the cron job
 
