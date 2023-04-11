@@ -4,7 +4,7 @@ commit*.sh
 trash/
 episode*.json
 *.bk
-branch_playlist.txt
+branch_playlist*.txt
 *.log
 hello.sh
 branches.txt

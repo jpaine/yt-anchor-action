@@ -6,14 +6,17 @@
 - [(Local Cron) Automating youtube video to anchor fm audio](#local-cron-automating-youtube-video-to-anchor-fm-audio)
   - [Prerequisite](#prerequisite)
   - [Setting up automation](#setting-up-automation)
-    - [Set up Github Credentials](#set-up-github-credentials)
-    - [Creating a new podcast](#creating-a-new-podcast)
+    - [(Once) Set up Github Credentials](#once-set-up-github-credentials)
+    - [(Everytime) Creating a new podcast](#everytime-creating-a-new-podcast)
+      - [On Github.com](#on-githubcom)
+      - [On your local machine](#on-your-local-machine)
     - [Setting up the cron job](#setting-up-the-cron-job)
       - [Playlist](#playlist)
       - [Setup Workflow](#setup-workflow)
       - [Setup Cron](#setup-cron)
       - [Edit Cron Job Timing](#edit-cron-job-timing)
     - [See Your Actions](#see-your-actions)
+    - [Rerun failed Actions](#rerun-failed-actions)
   - [Manual Method](#manual-method)
   - [How is the converted videos data stored ?](#how-is-the-converted-videos-data-stored-)
   - [Concern regarding automation of playlists](#concern-regarding-automation-of-playlists)
@@ -29,39 +32,52 @@
    ```
 ## Setting up automation
 
-### Set up Github Credentials
+### (Once) Set up Github Credentials
 
 > If you are not using any `GCM (Git Credential Manager)` which already has `Personal Access Token` to authenticate you with Github, do the following steps. Otherwise, skip.
 
 1. Install [Homebrew](https://brew.sh/)
 2. Install [Github CLI](https://github.com/cli/cli#installation)
-3. Get a Fine-Grained PAT for the repository from [Github](github.com) `Account->Settings->Developer Settings`. [Personal access token how to](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token#creating-a-fine-grained-personal-access-token) with following permissions  
-![Screenshot 2023-03-01 at 17-49-37 Fine-grained Personal Access Tokens](https://user-images.githubusercontent.com/34445750/222138260-a80aecff-9325-46b4-8020-6978826a0c50.png)
-4. Make `gh` your credential manager  `gh auth setup-git`
-5. `git auth login` will help you set things up. For help [gh auth login](https://cli.github.com/manual/gh_auth_login) 
-6. List your token `gh auth token` to see if it is set up correctly.
+3. Make `gh` your credential manager  
+   ```
+      gh auth setup-git
+   ```
+4. Run the following to setup credentials. For help [gh auth login](https://cli.github.com/manual/gh_auth_login)
+   ```bash
+      gh auth login
+   ``` 
 
-### Creating a new podcast
+### (Everytime) Creating a new podcast
+
+#### On Github.com
 
 1. On [Github](github.com) 
-   1. **One time only** Fork the Repository. Make sure you get the branch `local-cron`.
-   2. Create `new branch from local-cron` and name it like `podcast_1`. 
+   1. Create `new branch from local-cron` and name it like `podcast_1`. 
 2. Go to secrets and create `ANCHOR_EMAIL_1` and `ANCHOR_PASSWORD_1`. 
     > The `_x` naming format are important to match branch to podcast credentials.
-3. If first time, on your local machine create a folder and navigate into the folder before proceeding, as this is where all subsequent podcast branches should be placed.
+
+#### On your local machine 
+
+1. Open a terminal
+2. If first time, on your local machine create a folder and navigate into the folder before proceeding, as this is where all subsequent podcast branches should be placed.
    1. `mkdir podcasts && cd podcasts/`
-4. Clone the `podcast_x` repository to a folder in your local machine and navigate into the folder.
+3. Clone the `podcast_x` repository to a folder in your local machine and navigate into the folder.
     ```bash
       git clone -b <podcast_x> <repository_url> <podcast_x>
     ```
+    eg.
+    ```
+    replace `<podcast_x>` with your new podcast branch eg. podcast_2
+    replace `<repository_url>` with your repository url eg. https://github.com/username/repo.git
+    git clone -b podcast_2 https://github.com/username/repo.git podcast_2
+    ```
 5. Change into the new `podcast_x` directory.
-
 
 ### Setting up the cron job
 
 #### Playlist
 
-1. To setup up a Playlist URL for this branch ( this will be used in all subsequent runs )
+1. To attach a Playlist URL to this branch ( this will be used in all subsequent runs )
     ```bash
       ./scripts/prompt-url.sh
     ```
@@ -91,8 +107,15 @@
 
 ### See Your Actions
 
-1. On Github go to a `podcast branch` and under `Actions` tab of a branch, you can see if the action was executed.
+1. On [Github](https://github.com) go to a `podcast branch` and under `Actions` tab you check status of your workflows.
 
+### Rerun failed Actions
+
+1. On your local machine using terminal, navigate into a branch, eg. podcast_1
+2. Run the following command
+  ```
+  ./scripts/see-failed.sh
+  ```
 ## Manual Method
 
 The manual method is still available from `main` branch and using a `codespace`, same as before. If it is ever needed.
