@@ -46,7 +46,19 @@
    ```bash
       gh auth login
    ``` 
-
+5. (For Mac) Please install `gnu-sed` and create an alias in bash profile.
+   - Install `gnu-sed`
+    ```
+    brew install gnu-sed
+    ``` 
+   - (From Terminal) Open bash profile and add the following line to it.
+    ```
+    alias sed='gsed'
+    ``` 
+   - (From Terminal) Run the following command
+    ```
+    source .bash_profile
+    ```
 ### (Everytime) Creating a new podcast
 
 #### On Github.com
@@ -84,7 +96,7 @@
     ```
 #### Setup Workflow
 
-1. To update the github action to match Anchor password and email
+1. To update the github action to match Anchor password and email. ( On Mac, make sure that gnu-sed is installed and aliased )
     ```bash
       ./scripts/update-workflow.sh
     ```
