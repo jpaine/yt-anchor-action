@@ -5,7 +5,7 @@ on:
     paths:
       - episode.json
     branches: 
-      - local-cron
+      - podcast_2
 
 jobs:
   Upload_Job:
