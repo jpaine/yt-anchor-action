@@ -1,7 +1,7 @@
 {
   "name": "Upload processed data",
-  "videoQuantity": 116,
-  "lastUpdated": "2023-04-09T18:57:09.409Z",
+  "videoQuantity": 130,
+  "lastUpdated": "2023-04-20T16:30:45.052Z",
   "videos": [
     {
       "title": "Tesla AI Day Highlights | Lex Fridman",
@@ -4525,6 +4525,552 @@
         "ID": "UCY7dD6waquGnKTZSumPMTlQ",
         "URL": "https://www.youtube.com/channel/UCY7dD6waquGnKTZSumPMTlQ",
         "canonicalURL": "https://www.youtube.com/@OxfordUnion"
+      }
+    },
+    {
+      "title": "Leading Disruptive Growth webinar - Why disruption is the new normal?",
+      "ID": "A0YUA587PY0",
+      "URL": "https://www.youtube.com/watch?v=A0YUA587PY0",
+      "index": 1,
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/A0YUA587PY0/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDY44aeuK6rvNsebolkyTh61EIa5w",
+          "width": 336,
+          "height": 188
+        },
+        {
+          "url": "https://i.ytimg.com/vi/A0YUA587PY0/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCQjy3lyOeZHO8tOFoFboMtK-vXbQ",
+          "width": 246,
+          "height": 138
+        },
+        {
+          "url": "https://i.ytimg.com/vi/A0YUA587PY0/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLBGYXCYdAEvdZQskzknUYjt-k2vWQ",
+          "width": 196,
+          "height": 110
+        },
+        {
+          "url": "https://i.ytimg.com/vi/A0YUA587PY0/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLBqstLXsbpnEAe9u-6IZWxSRA4gjA",
+          "width": 168,
+          "height": 94
+        }
+      ],
+      "duration": {
+        "normal": "59:47",
+        "long": "59 minutes, 47 seconds",
+        "number": 3587
+      },
+      "owner": {
+        "name": "Saïd Business School, University of Oxford",
+        "ID": "UCHIqMEje_NFJ2u24CVaNQvg",
+        "URL": "https://www.youtube.com/channel/UCHIqMEje_NFJ2u24CVaNQvg",
+        "canonicalURL": "https://www.youtube.com/@OxfordSBS"
+      }
+    },
+    {
+      "title": "10 Years of Impact - Oxford Impact Investing Programme",
+      "ID": "E90UcKqLhPU",
+      "URL": "https://www.youtube.com/watch?v=E90UcKqLhPU",
+      "index": 2,
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/E90UcKqLhPU/hqdefault.jpg?sqp=-oaymwE9CNACELwBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4Af4JgAKOBYoCDAgAEAEYfyBCKBMwDw==&rs=AOn4CLCnDh2kXzg0Ppg4C3Tvqh-xwuzihA",
+          "width": 336,
+          "height": 188
+        },
+        {
+          "url": "https://i.ytimg.com/vi/E90UcKqLhPU/hqdefault.jpg?sqp=-oaymwE9CPYBEIoBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4Af4JgAKOBYoCDAgAEAEYfyBCKBMwDw==&rs=AOn4CLDEkEm539_Vwtszgw5n3aaB7yuSEA",
+          "width": 246,
+          "height": 138
+        },
+        {
+          "url": "https://i.ytimg.com/vi/E90UcKqLhPU/hqdefault.jpg?sqp=-oaymwE8CMQBEG5IWvKriqkDLwgBFQAAAAAYASUAAMhCPQCAokN4AfABAfgB_gmAAo4FigIMCAAQARh_IEIoEzAP&rs=AOn4CLAO1y_EqVMa_DzeQIKimVlkGHpgTA",
+          "width": 196,
+          "height": 110
+        },
+        {
+          "url": "https://i.ytimg.com/vi/E90UcKqLhPU/hqdefault.jpg?sqp=-oaymwE8CKgBEF5IWvKriqkDLwgBFQAAAAAYASUAAMhCPQCAokN4AfABAfgB_gmAAo4FigIMCAAQARh_IEIoEzAP&rs=AOn4CLCxGirwMCVD6a0rAwrDFjH054U7uw",
+          "width": 168,
+          "height": 94
+        }
+      ],
+      "duration": {
+        "normal": "1:00:16",
+        "long": "1 hour, 16 seconds",
+        "number": 3616
+      },
+      "owner": {
+        "name": "Saïd Business School, University of Oxford",
+        "ID": "UCHIqMEje_NFJ2u24CVaNQvg",
+        "URL": "https://www.youtube.com/channel/UCHIqMEje_NFJ2u24CVaNQvg",
+        "canonicalURL": "https://www.youtube.com/@OxfordSBS"
+      }
+    },
+    {
+      "title": "Spearheading our own narrative",
+      "ID": "9N3qxGCDlE8",
+      "URL": "https://www.youtube.com/watch?v=9N3qxGCDlE8",
+      "index": 3,
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/9N3qxGCDlE8/hqdefault.jpg?sqp=-oaymwE9CNACELwBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4Af4JgALQBYoCDAgAEAEYQCA_KHIwDw==&rs=AOn4CLD21-D6PMEjgS3nxwQ5J31AnxRCNQ",
+          "width": 336,
+          "height": 188
+        },
+        {
+          "url": "https://i.ytimg.com/vi/9N3qxGCDlE8/hqdefault.jpg?sqp=-oaymwE9CPYBEIoBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4Af4JgALQBYoCDAgAEAEYQCA_KHIwDw==&rs=AOn4CLA3zXJhmqH7XRl756DneiSlYU7KXA",
+          "width": 246,
+          "height": 138
+        },
+        {
+          "url": "https://i.ytimg.com/vi/9N3qxGCDlE8/hqdefault.jpg?sqp=-oaymwE8CMQBEG5IWvKriqkDLwgBFQAAAAAYASUAAMhCPQCAokN4AfABAfgB_gmAAtAFigIMCAAQARhAID8ocjAP&rs=AOn4CLB29rwneun6fgfpmzK0dlQVpOJwcQ",
+          "width": 196,
+          "height": 110
+        },
+        {
+          "url": "https://i.ytimg.com/vi/9N3qxGCDlE8/hqdefault.jpg?sqp=-oaymwE8CKgBEF5IWvKriqkDLwgBFQAAAAAYASUAAMhCPQCAokN4AfABAfgB_gmAAtAFigIMCAAQARhAID8ocjAP&rs=AOn4CLBCyn4d9FSP_ZR9ibfuV_eUnNgRhA",
+          "width": 168,
+          "height": 94
+        }
+      ],
+      "duration": {
+        "normal": "44:39",
+        "long": "44 minutes, 39 seconds",
+        "number": 2679
+      },
+      "owner": {
+        "name": "Saïd Business School, University of Oxford",
+        "ID": "UCHIqMEje_NFJ2u24CVaNQvg",
+        "URL": "https://www.youtube.com/channel/UCHIqMEje_NFJ2u24CVaNQvg",
+        "canonicalURL": "https://www.youtube.com/@OxfordSBS"
+      }
+    },
+    {
+      "title": "What does just transition mean for Africa",
+      "ID": "Sb0EI1VUgpw",
+      "URL": "https://www.youtube.com/watch?v=Sb0EI1VUgpw",
+      "index": 4,
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/Sb0EI1VUgpw/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAsEL4-dKxnWD2BH-8fiQf_mgtgdw",
+          "width": 336,
+          "height": 188
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Sb0EI1VUgpw/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBu8cK4zZd8UysSgftTKrp6eDlzTQ",
+          "width": 246,
+          "height": 138
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Sb0EI1VUgpw/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLDnWrJo-qH_oUGn3gpA-sAewyt8xg",
+          "width": 196,
+          "height": 110
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Sb0EI1VUgpw/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLB-GxKtep2iezF1wss0-cnOmbvxLg",
+          "width": 168,
+          "height": 94
+        }
+      ],
+      "duration": {
+        "normal": "58:34",
+        "long": "58 minutes, 34 seconds",
+        "number": 3514
+      },
+      "owner": {
+        "name": "Saïd Business School, University of Oxford",
+        "ID": "UCHIqMEje_NFJ2u24CVaNQvg",
+        "URL": "https://www.youtube.com/channel/UCHIqMEje_NFJ2u24CVaNQvg",
+        "canonicalURL": "https://www.youtube.com/@OxfordSBS"
+      }
+    },
+    {
+      "title": "Inclusive Public Private Sector partnerships",
+      "ID": "L1FQ2mbLOeQ",
+      "URL": "https://www.youtube.com/watch?v=L1FQ2mbLOeQ",
+      "index": 5,
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/L1FQ2mbLOeQ/hqdefault.jpg?sqp=-oaymwE9CNACELwBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4Af4JgALQBYoCDAgAEAEYQyBGKH8wDw==&rs=AOn4CLB2eIfVBID-4wwG6d9_BPhaC44CfQ",
+          "width": 336,
+          "height": 188
+        },
+        {
+          "url": "https://i.ytimg.com/vi/L1FQ2mbLOeQ/hqdefault.jpg?sqp=-oaymwE9CPYBEIoBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4Af4JgALQBYoCDAgAEAEYQyBGKH8wDw==&rs=AOn4CLDLy9zYBF_t5cniqquwYOA9TRxUQg",
+          "width": 246,
+          "height": 138
+        },
+        {
+          "url": "https://i.ytimg.com/vi/L1FQ2mbLOeQ/hqdefault.jpg?sqp=-oaymwE8CMQBEG5IWvKriqkDLwgBFQAAAAAYASUAAMhCPQCAokN4AfABAfgB_gmAAtAFigIMCAAQARhDIEYofzAP&rs=AOn4CLAUwaDmgMMifE_GL6OxTh_USPe08Q",
+          "width": 196,
+          "height": 110
+        },
+        {
+          "url": "https://i.ytimg.com/vi/L1FQ2mbLOeQ/hqdefault.jpg?sqp=-oaymwE8CKgBEF5IWvKriqkDLwgBFQAAAAAYASUAAMhCPQCAokN4AfABAfgB_gmAAtAFigIMCAAQARhDIEYofzAP&rs=AOn4CLAN9BRS7ckdgz2JU9MC5qw9JugOOA",
+          "width": 168,
+          "height": 94
+        }
+      ],
+      "duration": {
+        "normal": "47:13",
+        "long": "47 minutes, 13 seconds",
+        "number": 2833
+      },
+      "owner": {
+        "name": "Saïd Business School, University of Oxford",
+        "ID": "UCHIqMEje_NFJ2u24CVaNQvg",
+        "URL": "https://www.youtube.com/channel/UCHIqMEje_NFJ2u24CVaNQvg",
+        "canonicalURL": "https://www.youtube.com/@OxfordSBS"
+      }
+    },
+    {
+      "title": "Change for Climate Africa’s Shift to a Circular Economy",
+      "ID": "e9avc9QXZBM",
+      "URL": "https://www.youtube.com/watch?v=e9avc9QXZBM",
+      "index": 6,
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/e9avc9QXZBM/hqdefault.jpg?sqp=-oaymwE9CNACELwBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4Af4JgALQBYoCDAgAEAEYPyA_KHIwDw==&rs=AOn4CLBQ4BbiDpgCHjMZUDXHOf7Smr_wqw",
+          "width": 336,
+          "height": 188
+        },
+        {
+          "url": "https://i.ytimg.com/vi/e9avc9QXZBM/hqdefault.jpg?sqp=-oaymwE9CPYBEIoBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4Af4JgALQBYoCDAgAEAEYPyA_KHIwDw==&rs=AOn4CLDAc5-afNwO0mv7ThuyrBcqEZ_f_w",
+          "width": 246,
+          "height": 138
+        },
+        {
+          "url": "https://i.ytimg.com/vi/e9avc9QXZBM/hqdefault.jpg?sqp=-oaymwE8CMQBEG5IWvKriqkDLwgBFQAAAAAYASUAAMhCPQCAokN4AfABAfgB_gmAAtAFigIMCAAQARg_ID8ocjAP&rs=AOn4CLD9BpR-EJJNazB_B8IqGQSefeiGpw",
+          "width": 196,
+          "height": 110
+        },
+        {
+          "url": "https://i.ytimg.com/vi/e9avc9QXZBM/hqdefault.jpg?sqp=-oaymwE8CKgBEF5IWvKriqkDLwgBFQAAAAAYASUAAMhCPQCAokN4AfABAfgB_gmAAtAFigIMCAAQARg_ID8ocjAP&rs=AOn4CLCOVENBbWiBXMS1889QSH2rMLrPgQ",
+          "width": 168,
+          "height": 94
+        }
+      ],
+      "duration": {
+        "normal": "36:37",
+        "long": "36 minutes, 37 seconds",
+        "number": 2197
+      },
+      "owner": {
+        "name": "Saïd Business School, University of Oxford",
+        "ID": "UCHIqMEje_NFJ2u24CVaNQvg",
+        "URL": "https://www.youtube.com/channel/UCHIqMEje_NFJ2u24CVaNQvg",
+        "canonicalURL": "https://www.youtube.com/@OxfordSBS"
+      }
+    },
+    {
+      "title": "The State of Climate Finance in Africa",
+      "ID": "NPXDDhdOxTo",
+      "URL": "https://www.youtube.com/watch?v=NPXDDhdOxTo",
+      "index": 7,
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/NPXDDhdOxTo/hqdefault.jpg?sqp=-oaymwE9CNACELwBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4Af4JgALQBYoCDAgAEAEYZSBlKGUwDw==&rs=AOn4CLBdfSluiLJKPcBVdWqyDLO_qWCXJg",
+          "width": 336,
+          "height": 188
+        },
+        {
+          "url": "https://i.ytimg.com/vi/NPXDDhdOxTo/hqdefault.jpg?sqp=-oaymwE9CPYBEIoBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4Af4JgALQBYoCDAgAEAEYZSBlKGUwDw==&rs=AOn4CLD3wB9TdhW4Zf71qPcbyOQPFfVqBA",
+          "width": 246,
+          "height": 138
+        },
+        {
+          "url": "https://i.ytimg.com/vi/NPXDDhdOxTo/hqdefault.jpg?sqp=-oaymwE8CMQBEG5IWvKriqkDLwgBFQAAAAAYASUAAMhCPQCAokN4AfABAfgB_gmAAtAFigIMCAAQARhlIGUoZTAP&rs=AOn4CLBbwmE-Ba1js_Te2B7AK-aXvp3vMA",
+          "width": 196,
+          "height": 110
+        },
+        {
+          "url": "https://i.ytimg.com/vi/NPXDDhdOxTo/hqdefault.jpg?sqp=-oaymwE8CKgBEF5IWvKriqkDLwgBFQAAAAAYASUAAMhCPQCAokN4AfABAfgB_gmAAtAFigIMCAAQARhlIGUoZTAP&rs=AOn4CLCONQa37Y_yrPa-w5AUHZuYnpkM3A",
+          "width": 168,
+          "height": 94
+        }
+      ],
+      "duration": {
+        "normal": "35:26",
+        "long": "35 minutes, 26 seconds",
+        "number": 2126
+      },
+      "owner": {
+        "name": "Saïd Business School, University of Oxford",
+        "ID": "UCHIqMEje_NFJ2u24CVaNQvg",
+        "URL": "https://www.youtube.com/channel/UCHIqMEje_NFJ2u24CVaNQvg",
+        "canonicalURL": "https://www.youtube.com/@OxfordSBS"
+      }
+    },
+    {
+      "title": "Private Equity: What's on the Horizon",
+      "ID": "V4jQOb7mp_I",
+      "URL": "https://www.youtube.com/watch?v=V4jQOb7mp_I",
+      "index": 8,
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/V4jQOb7mp_I/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLD7Hq1SRhsbQRAJ-4os4Vrti_Ps1A",
+          "width": 336,
+          "height": 188
+        },
+        {
+          "url": "https://i.ytimg.com/vi/V4jQOb7mp_I/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBe2Qq1NvYQedY_FNlu3WAKY1MXkA",
+          "width": 246,
+          "height": 138
+        },
+        {
+          "url": "https://i.ytimg.com/vi/V4jQOb7mp_I/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLA-jyeOotLfKUzQO0p48OdXFaAsMg",
+          "width": 196,
+          "height": 110
+        },
+        {
+          "url": "https://i.ytimg.com/vi/V4jQOb7mp_I/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLCvw1phcjeAtWW2IOpQKCJJSPFZkQ",
+          "width": 168,
+          "height": 94
+        }
+      ],
+      "duration": {
+        "normal": "44:38",
+        "long": "44 minutes, 38 seconds",
+        "number": 2678
+      },
+      "owner": {
+        "name": "Saïd Business School, University of Oxford",
+        "ID": "UCHIqMEje_NFJ2u24CVaNQvg",
+        "URL": "https://www.youtube.com/channel/UCHIqMEje_NFJ2u24CVaNQvg",
+        "canonicalURL": "https://www.youtube.com/@OxfordSBS"
+      }
+    },
+    {
+      "title": "The Social Brain Book Launch Webinar",
+      "ID": "R-IEY_BkO9A",
+      "URL": "https://www.youtube.com/watch?v=R-IEY_BkO9A",
+      "index": 9,
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/R-IEY_BkO9A/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCvMS4fUPFvuhGHh_Gib9Fdu--veg",
+          "width": 336,
+          "height": 188
+        },
+        {
+          "url": "https://i.ytimg.com/vi/R-IEY_BkO9A/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBF6HZeL-VlbKzEhSNgRZSWOTyRBw",
+          "width": 246,
+          "height": 138
+        },
+        {
+          "url": "https://i.ytimg.com/vi/R-IEY_BkO9A/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLCK1hNRu5GdfLTWotMa_PGqFZGrgg",
+          "width": 196,
+          "height": 110
+        },
+        {
+          "url": "https://i.ytimg.com/vi/R-IEY_BkO9A/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLC7QbRGUKyNq8rlSCPpW1doKpWKHg",
+          "width": 168,
+          "height": 94
+        }
+      ],
+      "duration": {
+        "normal": "1:00:33",
+        "long": "1 hour, 33 seconds",
+        "number": 3633
+      },
+      "owner": {
+        "name": "Saïd Business School, University of Oxford",
+        "ID": "UCHIqMEje_NFJ2u24CVaNQvg",
+        "URL": "https://www.youtube.com/channel/UCHIqMEje_NFJ2u24CVaNQvg",
+        "canonicalURL": "https://www.youtube.com/@OxfordSBS"
+      }
+    },
+    {
+      "title": "Oxford Executive MBA admissions process",
+      "ID": "7pM585Ji6WQ",
+      "URL": "https://www.youtube.com/watch?v=7pM585Ji6WQ",
+      "index": 10,
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/7pM585Ji6WQ/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLClS0epvOEFiC568T2WacdI3feTlA",
+          "width": 336,
+          "height": 188
+        },
+        {
+          "url": "https://i.ytimg.com/vi/7pM585Ji6WQ/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDQ43VI2iR0EqOSurnuHd1l2AtZgw",
+          "width": 246,
+          "height": 138
+        },
+        {
+          "url": "https://i.ytimg.com/vi/7pM585Ji6WQ/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLBj9UYrGvkAksHQSQY_lQaL5xDU_w",
+          "width": 196,
+          "height": 110
+        },
+        {
+          "url": "https://i.ytimg.com/vi/7pM585Ji6WQ/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLA94bQbdTtTB1GmsjuLd1Z5EwzF4g",
+          "width": 168,
+          "height": 94
+        }
+      ],
+      "duration": {
+        "normal": "38:19",
+        "long": "38 minutes, 19 seconds",
+        "number": 2299
+      },
+      "owner": {
+        "name": "Saïd Business School, University of Oxford",
+        "ID": "UCHIqMEje_NFJ2u24CVaNQvg",
+        "URL": "https://www.youtube.com/channel/UCHIqMEje_NFJ2u24CVaNQvg",
+        "canonicalURL": "https://www.youtube.com/@OxfordSBS"
+      }
+    },
+    {
+      "title": "Executive MBA taster lecture: the policy movement around women on boards",
+      "ID": "3UtIlIShiEA",
+      "URL": "https://www.youtube.com/watch?v=3UtIlIShiEA",
+      "index": 11,
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/3UtIlIShiEA/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBTX4D0olcpGMasY_VZgS5_v3FxSw",
+          "width": 336,
+          "height": 188
+        },
+        {
+          "url": "https://i.ytimg.com/vi/3UtIlIShiEA/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLA4qw5q-sKyKOUwVfTtHsfUXU18LQ",
+          "width": 246,
+          "height": 138
+        },
+        {
+          "url": "https://i.ytimg.com/vi/3UtIlIShiEA/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLCSTyyQR2NXxH4FTxWWpol2-gKP7w",
+          "width": 196,
+          "height": 110
+        },
+        {
+          "url": "https://i.ytimg.com/vi/3UtIlIShiEA/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLAvNALWUEpjxA6GHRznjpoqpGPg_g",
+          "width": 168,
+          "height": 94
+        }
+      ],
+      "duration": {
+        "normal": "54:22",
+        "long": "54 minutes, 22 seconds",
+        "number": 3262
+      },
+      "owner": {
+        "name": "Saïd Business School, University of Oxford",
+        "ID": "UCHIqMEje_NFJ2u24CVaNQvg",
+        "URL": "https://www.youtube.com/channel/UCHIqMEje_NFJ2u24CVaNQvg",
+        "canonicalURL": "https://www.youtube.com/@OxfordSBS"
+      }
+    },
+    {
+      "title": "India’s goals as President of the G20; future outlook and aspirations",
+      "ID": "xjyTgmkb4gY",
+      "URL": "https://www.youtube.com/watch?v=xjyTgmkb4gY",
+      "index": 12,
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/xjyTgmkb4gY/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAuuImyiqjYW6iaRHshpfXR-051tQ",
+          "width": 336,
+          "height": 188
+        },
+        {
+          "url": "https://i.ytimg.com/vi/xjyTgmkb4gY/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAmcA9tsVoXRR2tqZslptIhv3wNuw",
+          "width": 246,
+          "height": 138
+        },
+        {
+          "url": "https://i.ytimg.com/vi/xjyTgmkb4gY/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLCytf2YYgrscPFlBDqz94pnuSdEyQ",
+          "width": 196,
+          "height": 110
+        },
+        {
+          "url": "https://i.ytimg.com/vi/xjyTgmkb4gY/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLCu-axcp7L0lcTwi-fsJJ-tYlnEAA",
+          "width": 168,
+          "height": 94
+        }
+      ],
+      "duration": {
+        "normal": "1:00:27",
+        "long": "1 hour, 27 seconds",
+        "number": 3627
+      },
+      "owner": {
+        "name": "Saïd Business School, University of Oxford",
+        "ID": "UCHIqMEje_NFJ2u24CVaNQvg",
+        "URL": "https://www.youtube.com/channel/UCHIqMEje_NFJ2u24CVaNQvg",
+        "canonicalURL": "https://www.youtube.com/@OxfordSBS"
+      }
+    },
+    {
+      "title": "Creating Resilient Financial Institutions",
+      "ID": "N6lzZHjgaA0",
+      "URL": "https://www.youtube.com/watch?v=N6lzZHjgaA0",
+      "index": 13,
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/N6lzZHjgaA0/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLB14eYdiaiADPuxTgutFAe96-fXGQ",
+          "width": 336,
+          "height": 188
+        },
+        {
+          "url": "https://i.ytimg.com/vi/N6lzZHjgaA0/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBM8bf8kqfcLrTSomU0bz8pgxbiGQ",
+          "width": 246,
+          "height": 138
+        },
+        {
+          "url": "https://i.ytimg.com/vi/N6lzZHjgaA0/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLBCVrmOKZrnDti3lgBidb9TdVWVig",
+          "width": 196,
+          "height": 110
+        },
+        {
+          "url": "https://i.ytimg.com/vi/N6lzZHjgaA0/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLAnS_v0R_XxeoKJllmlUrrNJvmPNA",
+          "width": 168,
+          "height": 94
+        }
+      ],
+      "duration": {
+        "normal": "1:00:16",
+        "long": "1 hour, 16 seconds",
+        "number": 3616
+      },
+      "owner": {
+        "name": "Saïd Business School, University of Oxford",
+        "ID": "UCHIqMEje_NFJ2u24CVaNQvg",
+        "URL": "https://www.youtube.com/channel/UCHIqMEje_NFJ2u24CVaNQvg",
+        "canonicalURL": "https://www.youtube.com/@OxfordSBS"
+      }
+    },
+    {
+      "title": "Digital innovation: what can the West learn from the East? Livestream Video summary.",
+      "ID": "YWCttpI51c8",
+      "URL": "https://www.youtube.com/watch?v=YWCttpI51c8",
+      "index": 14,
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/YWCttpI51c8/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLB0y9QCLZUdxuAxgKjPwfp0FfOrcA",
+          "width": 336,
+          "height": 188
+        },
+        {
+          "url": "https://i.ytimg.com/vi/YWCttpI51c8/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBX2J713bkKbQ_MLTNrOc7yzI-l2Q",
+          "width": 246,
+          "height": 138
+        },
+        {
+          "url": "https://i.ytimg.com/vi/YWCttpI51c8/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLDWce9-Bm_lOIJr94eTMDZBs9F8Sg",
+          "width": 196,
+          "height": 110
+        },
+        {
+          "url": "https://i.ytimg.com/vi/YWCttpI51c8/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLCilCngTug67nHYdxXY6dbxmXCsmQ",
+          "width": 168,
+          "height": 94
+        }
+      ],
+      "duration": {
+        "normal": "5:53",
+        "long": "5 minutes, 53 seconds",
+        "number": 353
+      },
+      "owner": {
+        "name": "Saïd Business School, University of Oxford",
+        "ID": "UCHIqMEje_NFJ2u24CVaNQvg",
+        "URL": "https://www.youtube.com/channel/UCHIqMEje_NFJ2u24CVaNQvg",
+        "canonicalURL": "https://www.youtube.com/@OxfordSBS"
       }
     }
   ]
